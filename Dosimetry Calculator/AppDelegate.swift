@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Sometimes Settings.userName won't set itself correctly, so this ensures it's set at launch
+        let defaults = UserDefaults.standard
+        if(defaults.string(forKey: "user") != nil) {
+            Settings.userName = defaults.string(forKey: "user")!
+        }
+        
         return true
     }
 
@@ -27,6 +34,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        
+        //Store's that one option in the "setting(s?)" page
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -39,8 +48,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        let defaults = UserDefaults.standard
+        defaults.set(Settings.machineISO, forKey: "userISO")
+        defaults.set(Settings.userName, forKey: "user")
     }
-
-
 }
 

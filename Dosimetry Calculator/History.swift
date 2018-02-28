@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  Dosimetry Calculator
 //
 //  Created by Miro Manestar on 12/13/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class History: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E139891203B879800455E6E /* 10mvTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E139890203B879800455E6E /* 10mvTables.swift */; };
+		4E139893203B87AA00455E6E /* 18mvTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E139892203B87AA00455E6E /* 18mvTables.swift */; };
+		4E139896203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E139894203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv */; };
+		4E139897203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_TPR_Table.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E139895203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_TPR_Table.csv */; };
+		4E47DC7A2044BD1E0022BECF /* SwiftCSV in Resources */ = {isa = PBXBuildFile; fileRef = 4E47DC792044BD1E0022BECF /* SwiftCSV */; };
+		4E47DC7C2044D2CD0022BECF /* NSC ClinaciX #3358_10X_NONE_PDD_Table.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E47DC7B2044D2CD0022BECF /* NSC ClinaciX #3358_10X_NONE_PDD_Table.csv */; };
+		4E47DC802044EB1B0022BECF /* 10MVscp.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E47DC7F2044EB1B0022BECF /* 10MVscp.csv */; };
 		4E5DAFA31FE176C400C056C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DAFA21FE176C400C056C6 /* AppDelegate.swift */; };
-		4E5DAFA51FE176C400C056C6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DAFA41FE176C400C056C6 /* FirstViewController.swift */; };
-		4E5DAFA71FE176C400C056C6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DAFA61FE176C400C056C6 /* SecondViewController.swift */; };
+		4E5DAFA51FE176C400C056C6 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DAFA41FE176C400C056C6 /* Calculator.swift */; };
+		4E5DAFA71FE176C400C056C6 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DAFA61FE176C400C056C6 /* History.swift */; };
 		4E5DAFAA1FE176C400C056C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DAFA81FE176C400C056C6 /* Main.storyboard */; };
 		4E5DAFAC1FE176C400C056C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DAFAB1FE176C400C056C6 /* Assets.xcassets */; };
 		4E5DAFAF1FE176C400C056C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DAFAD1FE176C400C056C6 /* LaunchScreen.storyboard */; };
 		4E5DAFBA1FE176C400C056C6 /* Dosimetry_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DAFB91FE176C400C056C6 /* Dosimetry_CalculatorTests.swift */; };
 		4E5DAFC51FE176C400C056C6 /* Dosimetry_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DAFC41FE176C400C056C6 /* Dosimetry_CalculatorUITests.swift */; };
+		4E8394302006785E002EEB73 /* NSH Trilogy #706_6 MV_WedgeFactors.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E83941A2006785D002EEB73 /* NSH Trilogy #706_6 MV_WedgeFactors.csv */; };
+		4E8394312006785E002EEB73 /* NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E83941B2006785D002EEB73 /* NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv */; };
+		4E8394322006785E002EEB73 /* NSH Trilogy #706_6 MV_Outputs.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E83941C2006785D002EEB73 /* NSH Trilogy #706_6 MV_Outputs.csv */; };
+		4E8394332006785E002EEB73 /* NSH Trilogy #706_6 MV_NONE_PDD_Table.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E83941D2006785D002EEB73 /* NSH Trilogy #706_6 MV_NONE_PDD_Table.csv */; };
+		4E8394342006785E002EEB73 /* NSH Trilogy #706_6 MV_NONE_TPR_Table.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E83941E2006785D002EEB73 /* NSH Trilogy #706_6 MV_NONE_TPR_Table.csv */; };
+		4E8394382006785E002EEB73 /* NSH Trilogy #706_18 MV_WedgeFactors.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E8394222006785D002EEB73 /* NSH Trilogy #706_18 MV_WedgeFactors.csv */; };
+		4E83943A2006785E002EEB73 /* NSH Trilogy #706_18 MV_NONE_PDD_Table.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E8394242006785D002EEB73 /* NSH Trilogy #706_18 MV_NONE_PDD_Table.csv */; };
+		4E83943D2006785E002EEB73 /* NSH Trilogy #706_6 MV_NONE_4x4_OAR_Table.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E8394272006785D002EEB73 /* NSH Trilogy #706_6 MV_NONE_4x4_OAR_Table.csv */; };
+		4E83943E2006785E002EEB73 /* NSH Trilogy #706_18 MV_NONE_TPR_Table.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E8394282006785D002EEB73 /* NSH Trilogy #706_18 MV_NONE_TPR_Table.csv */; };
+		4E83943F2006785E002EEB73 /* trilogy output.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E8394292006785E002EEB73 /* trilogy output.csv */; };
+		4E8394402006785E002EEB73 /* NSH Trilogy #706_18 MV_Outputs.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E83942A2006785E002EEB73 /* NSH Trilogy #706_18 MV_Outputs.csv */; };
+		4E8394452006C8F8002EEB73 /* 6MVscp.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E8394442006C8F8002EEB73 /* 6MVscp.csv */; };
+		4E8394472006CAB9002EEB73 /* 18MVscp.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E8394462006CAB9002EEB73 /* 18MVscp.csv */; };
+		4E839449200D61F8002EEB73 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E839448200D61F8002EEB73 /* Settings.swift */; };
+		4E83944D200ED7DC002EEB73 /* 6mvTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83944C200ED7DC002EEB73 /* 6mvTables.swift */; };
+		4EE475B11FF888D700861511 /* SADResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE475B01FF888D700861511 /* SADResult.swift */; };
+		4EE73B7C1FF5B54C00E4D16F /* SSDCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B7B1FF5B54C00E4D16F /* SSDCalculation.swift */; };
+		4EE73B801FF5C4EE00E4D16F /* SADCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B7F1FF5C4EE00E4D16F /* SADCalculation.swift */; };
+		4EE73B821FF5F24000E4D16F /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B811FF5F24000E4D16F /* DecimalMinusTextField.swift */; };
+		4EE73B891FF6B33900E4D16F /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B881FF6B33900E4D16F /* TPKeyboardAvoidingScrollView.m */; };
+		4EE73B8C1FF6B39800E4D16F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B8A1FF6B39700E4D16F /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		4EE73B8E1FF6CB2500E4D16F /* SSDResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B8D1FF6CB2500E4D16F /* SSDResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +64,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E139890203B879800455E6E /* 10mvTables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10mvTables.swift; sourceTree = "<group>"; };
+		4E139892203B87AA00455E6E /* 18mvTables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18mvTables.swift; sourceTree = "<group>"; };
+		4E139894203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv"; sourceTree = "<group>"; };
+		4E139895203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_TPR_Table.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSA 2100CD #1201_10 MV_NONE_TPR_Table.csv"; sourceTree = "<group>"; };
+		4E47DC792044BD1E0022BECF /* SwiftCSV */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwiftCSV; sourceTree = "<group>"; };
+		4E47DC7B2044D2CD0022BECF /* NSC ClinaciX #3358_10X_NONE_PDD_Table.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSC ClinaciX #3358_10X_NONE_PDD_Table.csv"; sourceTree = "<group>"; };
+		4E47DC7F2044EB1B0022BECF /* 10MVscp.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10MVscp.csv; sourceTree = "<group>"; };
 		4E5DAF9F1FE176C400C056C6 /* Dosimetry Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dosimetry Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5DAFA21FE176C400C056C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E5DAFA41FE176C400C056C6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		4E5DAFA61FE176C400C056C6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4E5DAFA41FE176C400C056C6 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		4E5DAFA61FE176C400C056C6 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		4E5DAFA91FE176C400C056C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E5DAFAB1FE176C400C056C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E5DAFAE1FE176C400C056C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +85,31 @@
 		4E5DAFC01FE176C400C056C6 /* Dosimetry CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dosimetry CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5DAFC41FE176C400C056C6 /* Dosimetry_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dosimetry_CalculatorUITests.swift; sourceTree = "<group>"; };
 		4E5DAFC61FE176C400C056C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E83941A2006785D002EEB73 /* NSH Trilogy #706_6 MV_WedgeFactors.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSH Trilogy #706_6 MV_WedgeFactors.csv"; sourceTree = "<group>"; };
+		4E83941B2006785D002EEB73 /* NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv"; sourceTree = "<group>"; };
+		4E83941C2006785D002EEB73 /* NSH Trilogy #706_6 MV_Outputs.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSH Trilogy #706_6 MV_Outputs.csv"; sourceTree = "<group>"; };
+		4E83941D2006785D002EEB73 /* NSH Trilogy #706_6 MV_NONE_PDD_Table.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSH Trilogy #706_6 MV_NONE_PDD_Table.csv"; sourceTree = "<group>"; };
+		4E83941E2006785D002EEB73 /* NSH Trilogy #706_6 MV_NONE_TPR_Table.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSH Trilogy #706_6 MV_NONE_TPR_Table.csv"; sourceTree = "<group>"; };
+		4E8394222006785D002EEB73 /* NSH Trilogy #706_18 MV_WedgeFactors.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSH Trilogy #706_18 MV_WedgeFactors.csv"; sourceTree = "<group>"; };
+		4E8394242006785D002EEB73 /* NSH Trilogy #706_18 MV_NONE_PDD_Table.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSH Trilogy #706_18 MV_NONE_PDD_Table.csv"; sourceTree = "<group>"; };
+		4E8394272006785D002EEB73 /* NSH Trilogy #706_6 MV_NONE_4x4_OAR_Table.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSH Trilogy #706_6 MV_NONE_4x4_OAR_Table.csv"; sourceTree = "<group>"; };
+		4E8394282006785D002EEB73 /* NSH Trilogy #706_18 MV_NONE_TPR_Table.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSH Trilogy #706_18 MV_NONE_TPR_Table.csv"; sourceTree = "<group>"; };
+		4E8394292006785E002EEB73 /* trilogy output.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "trilogy output.csv"; sourceTree = "<group>"; };
+		4E83942A2006785E002EEB73 /* NSH Trilogy #706_18 MV_Outputs.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSH Trilogy #706_18 MV_Outputs.csv"; sourceTree = "<group>"; };
+		4E8394442006C8F8002EEB73 /* 6MVscp.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 6MVscp.csv; sourceTree = "<group>"; };
+		4E8394462006CAB9002EEB73 /* 18MVscp.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 18MVscp.csv; sourceTree = "<group>"; };
+		4E839448200D61F8002EEB73 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		4E83944C200ED7DC002EEB73 /* 6mvTables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6mvTables.swift; sourceTree = "<group>"; };
+		4EE475B01FF888D700861511 /* SADResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SADResult.swift; sourceTree = "<group>"; };
+		4EE73B7B1FF5B54C00E4D16F /* SSDCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDCalculation.swift; sourceTree = "<group>"; };
+		4EE73B7F1FF5C4EE00E4D16F /* SADCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SADCalculation.swift; sourceTree = "<group>"; };
+		4EE73B811FF5F24000E4D16F /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalMinusTextField.swift; sourceTree = "<group>"; };
+		4EE73B861FF6B33800E4D16F /* Dosimetry Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dosimetry Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
+		4EE73B871FF6B33900E4D16F /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		4EE73B881FF6B33900E4D16F /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		4EE73B8A1FF6B39700E4D16F /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		4EE73B8B1FF6B39800E4D16F /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		4EE73B8D1FF6CB2500E4D16F /* SSDResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +160,24 @@
 		4E5DAFA11FE176C400C056C6 /* Dosimetry Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				4E839417200677BB002EEB73 /* Data Tables */,
+				4EE73B831FF5F8DB00E4D16F /* Extensions */,
 				4E5DAFA21FE176C400C056C6 /* AppDelegate.swift */,
-				4E5DAFA41FE176C400C056C6 /* FirstViewController.swift */,
-				4E5DAFA61FE176C400C056C6 /* SecondViewController.swift */,
+				4E5DAFA41FE176C400C056C6 /* Calculator.swift */,
+				4E5DAFA61FE176C400C056C6 /* History.swift */,
 				4E5DAFA81FE176C400C056C6 /* Main.storyboard */,
 				4E5DAFAB1FE176C400C056C6 /* Assets.xcassets */,
 				4E5DAFAD1FE176C400C056C6 /* LaunchScreen.storyboard */,
 				4E5DAFB01FE176C400C056C6 /* Info.plist */,
+				4EE73B7B1FF5B54C00E4D16F /* SSDCalculation.swift */,
+				4EE73B7F1FF5C4EE00E4D16F /* SADCalculation.swift */,
+				4EE73B861FF6B33800E4D16F /* Dosimetry Calculator-Bridging-Header.h */,
+				4EE73B8D1FF6CB2500E4D16F /* SSDResult.swift */,
+				4EE475B01FF888D700861511 /* SADResult.swift */,
+				4E839448200D61F8002EEB73 /* Settings.swift */,
+				4E83944C200ED7DC002EEB73 /* 6mvTables.swift */,
+				4E139890203B879800455E6E /* 10mvTables.swift */,
+				4E139892203B87AA00455E6E /* 18mvTables.swift */,
 			);
 			path = "Dosimetry Calculator";
 			sourceTree = "<group>";
@@ -126,6 +198,43 @@
 				4E5DAFC61FE176C400C056C6 /* Info.plist */,
 			);
 			path = "Dosimetry CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		4E839417200677BB002EEB73 /* Data Tables */ = {
+			isa = PBXGroup;
+			children = (
+				4E47DC7F2044EB1B0022BECF /* 10MVscp.csv */,
+				4E47DC7B2044D2CD0022BECF /* NSC ClinaciX #3358_10X_NONE_PDD_Table.csv */,
+				4E139894203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv */,
+				4E139895203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_TPR_Table.csv */,
+				4E8394462006CAB9002EEB73 /* 18MVscp.csv */,
+				4E8394442006C8F8002EEB73 /* 6MVscp.csv */,
+				4E8394272006785D002EEB73 /* NSH Trilogy #706_6 MV_NONE_4x4_OAR_Table.csv */,
+				4E83941D2006785D002EEB73 /* NSH Trilogy #706_6 MV_NONE_PDD_Table.csv */,
+				4E83941E2006785D002EEB73 /* NSH Trilogy #706_6 MV_NONE_TPR_Table.csv */,
+				4E83941C2006785D002EEB73 /* NSH Trilogy #706_6 MV_Outputs.csv */,
+				4E83941A2006785D002EEB73 /* NSH Trilogy #706_6 MV_WedgeFactors.csv */,
+				4E83941B2006785D002EEB73 /* NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv */,
+				4E8394242006785D002EEB73 /* NSH Trilogy #706_18 MV_NONE_PDD_Table.csv */,
+				4E8394282006785D002EEB73 /* NSH Trilogy #706_18 MV_NONE_TPR_Table.csv */,
+				4E83942A2006785E002EEB73 /* NSH Trilogy #706_18 MV_Outputs.csv */,
+				4E8394222006785D002EEB73 /* NSH Trilogy #706_18 MV_WedgeFactors.csv */,
+				4E8394292006785E002EEB73 /* trilogy output.csv */,
+			);
+			path = "Data Tables";
+			sourceTree = "<group>";
+		};
+		4EE73B831FF5F8DB00E4D16F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4EE73B811FF5F24000E4D16F /* DecimalMinusTextField.swift */,
+				4E47DC792044BD1E0022BECF /* SwiftCSV */,
+				4EE73B8B1FF6B39800E4D16F /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				4EE73B8A1FF6B39700E4D16F /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				4EE73B871FF6B33900E4D16F /* TPKeyboardAvoidingScrollView.h */,
+				4EE73B881FF6B33900E4D16F /* TPKeyboardAvoidingScrollView.m */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +305,7 @@
 				TargetAttributes = {
 					4E5DAF9E1FE176C400C056C6 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					4E5DAFB41FE176C400C056C6 = {
@@ -235,8 +345,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E8394472006CAB9002EEB73 /* 18MVscp.csv in Resources */,
+				4E47DC7C2044D2CD0022BECF /* NSC ClinaciX #3358_10X_NONE_PDD_Table.csv in Resources */,
+				4E139896203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv in Resources */,
+				4E8394302006785E002EEB73 /* NSH Trilogy #706_6 MV_WedgeFactors.csv in Resources */,
+				4E47DC7A2044BD1E0022BECF /* SwiftCSV in Resources */,
+				4E83943F2006785E002EEB73 /* trilogy output.csv in Resources */,
+				4E47DC802044EB1B0022BECF /* 10MVscp.csv in Resources */,
+				4E8394382006785E002EEB73 /* NSH Trilogy #706_18 MV_WedgeFactors.csv in Resources */,
+				4E8394452006C8F8002EEB73 /* 6MVscp.csv in Resources */,
+				4E8394342006785E002EEB73 /* NSH Trilogy #706_6 MV_NONE_TPR_Table.csv in Resources */,
+				4E83943D2006785E002EEB73 /* NSH Trilogy #706_6 MV_NONE_4x4_OAR_Table.csv in Resources */,
+				4E8394312006785E002EEB73 /* NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv in Resources */,
+				4E8394322006785E002EEB73 /* NSH Trilogy #706_6 MV_Outputs.csv in Resources */,
 				4E5DAFAF1FE176C400C056C6 /* LaunchScreen.storyboard in Resources */,
+				4E83943E2006785E002EEB73 /* NSH Trilogy #706_18 MV_NONE_TPR_Table.csv in Resources */,
+				4E139897203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_TPR_Table.csv in Resources */,
 				4E5DAFAC1FE176C400C056C6 /* Assets.xcassets in Resources */,
+				4E8394402006785E002EEB73 /* NSH Trilogy #706_18 MV_Outputs.csv in Resources */,
+				4E8394332006785E002EEB73 /* NSH Trilogy #706_6 MV_NONE_PDD_Table.csv in Resources */,
+				4E83943A2006785E002EEB73 /* NSH Trilogy #706_18 MV_NONE_PDD_Table.csv in Resources */,
 				4E5DAFAA1FE176C400C056C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +390,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E5DAFA71FE176C400C056C6 /* SecondViewController.swift in Sources */,
+				4E139893203B87AA00455E6E /* 18mvTables.swift in Sources */,
+				4EE73B891FF6B33900E4D16F /* TPKeyboardAvoidingScrollView.m in Sources */,
+				4EE73B821FF5F24000E4D16F /* DecimalMinusTextField.swift in Sources */,
+				4EE73B7C1FF5B54C00E4D16F /* SSDCalculation.swift in Sources */,
+				4EE73B8E1FF6CB2500E4D16F /* SSDResult.swift in Sources */,
+				4E5DAFA71FE176C400C056C6 /* History.swift in Sources */,
 				4E5DAFA31FE176C400C056C6 /* AppDelegate.swift in Sources */,
-				4E5DAFA51FE176C400C056C6 /* FirstViewController.swift in Sources */,
+				4EE73B8C1FF6B39800E4D16F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				4EE475B11FF888D700861511 /* SADResult.swift in Sources */,
+				4EE73B801FF5C4EE00E4D16F /* SADCalculation.swift in Sources */,
+				4E139891203B879800455E6E /* 10mvTables.swift in Sources */,
+				4E839449200D61F8002EEB73 /* Settings.swift in Sources */,
+				4E83944D200ED7DC002EEB73 /* 6mvTables.swift in Sources */,
+				4E5DAFA51FE176C400C056C6 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,28 +568,37 @@
 		4E5DAFCA1FE176C400C056C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U52Z3R95LS;
 				INFOPLIST_FILE = "Dosimetry Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Medical.Dosimetry-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "Medical.Dosimetry-CalculatorDistro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dosimetry Calculator/Dosimetry Calculator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4E5DAFCB1FE176C400C056C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U52Z3R95LS;
 				INFOPLIST_FILE = "Dosimetry Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Medical.Dosimetry-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "Medical.Dosimetry-CalculatorDistro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dosimetry Calculator/Dosimetry Calculator-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -460,6 +608,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U52Z3R95LS;
 				INFOPLIST_FILE = "Dosimetry CalculatorTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Medical.Dosimetry-CalculatorTests";
@@ -476,6 +625,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U52Z3R95LS;
 				INFOPLIST_FILE = "Dosimetry CalculatorTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Medical.Dosimetry-CalculatorTests";
@@ -490,11 +640,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U52Z3R95LS;
 				INFOPLIST_FILE = "Dosimetry CalculatorUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Medical.Dosimetry-CalculatorUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Medical.Dosimetry-CalculatorDistro7";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Dosimetry Calculator";
@@ -505,11 +658,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U52Z3R95LS;
 				INFOPLIST_FILE = "Dosimetry CalculatorUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Medical.Dosimetry-CalculatorUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Medical.Dosimetry-CalculatorDistro7";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Dosimetry Calculator";
