@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21E2D8D9FCAF2B870789979D /* Pods_Dosimetry_CalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9A043F2115E5219B5A989A /* Pods_Dosimetry_CalculatorUITests.framework */; };
+		402B2B3D64BE611698AED778 /* Pods_Dosimetry_CalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53C6DB270793F17CDF87F77 /* Pods_Dosimetry_CalculatorTests.framework */; };
+		4E01072C20473F55001712B4 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01072B20473F55001712B4 /* TableView.swift */; };
 		4E139891203B879800455E6E /* 10mvTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E139890203B879800455E6E /* 10mvTables.swift */; };
 		4E139893203B87AA00455E6E /* 18mvTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E139892203B87AA00455E6E /* 18mvTables.swift */; };
 		4E139896203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E139894203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv */; };
@@ -14,6 +17,14 @@
 		4E47DC7A2044BD1E0022BECF /* SwiftCSV in Resources */ = {isa = PBXBuildFile; fileRef = 4E47DC792044BD1E0022BECF /* SwiftCSV */; };
 		4E47DC7C2044D2CD0022BECF /* NSC ClinaciX #3358_10X_NONE_PDD_Table.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E47DC7B2044D2CD0022BECF /* NSC ClinaciX #3358_10X_NONE_PDD_Table.csv */; };
 		4E47DC802044EB1B0022BECF /* 10MVscp.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E47DC7F2044EB1B0022BECF /* 10MVscp.csv */; };
+		4E48669F2047AD6C00923F0F /* SpreadsheetRightRowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4866972047AD6B00923F0F /* SpreadsheetRightRowView.xib */; };
+		4E4866A02047AD6C00923F0F /* SpreadsheetBottomLeftDecorationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4866982047AD6B00923F0F /* SpreadsheetBottomLeftDecorationView.xib */; };
+		4E4866A12047AD6C00923F0F /* SpreadsheetTopColumnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4866992047AD6B00923F0F /* SpreadsheetTopColumnView.xib */; };
+		4E4866A22047AD6C00923F0F /* SpreadsheetLeftRowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E48669A2047AD6B00923F0F /* SpreadsheetLeftRowView.xib */; };
+		4E4866A32047AD6C00923F0F /* SpreadsheetTopLeftDecorationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E48669B2047AD6C00923F0F /* SpreadsheetTopLeftDecorationView.xib */; };
+		4E4866A42047AD6C00923F0F /* SpreadsheetTopRightDecorationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E48669C2047AD6C00923F0F /* SpreadsheetTopRightDecorationView.xib */; };
+		4E4866A52047AD6C00923F0F /* SpreadsheetBottomRightDecorationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E48669D2047AD6C00923F0F /* SpreadsheetBottomRightDecorationView.xib */; };
+		4E4866A62047AD6C00923F0F /* SpreadsheetBottomColumnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E48669E2047AD6C00923F0F /* SpreadsheetBottomColumnView.xib */; };
 		4E5DAFA31FE176C400C056C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DAFA21FE176C400C056C6 /* AppDelegate.swift */; };
 		4E5DAFA51FE176C400C056C6 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DAFA41FE176C400C056C6 /* Calculator.swift */; };
 		4E5DAFA71FE176C400C056C6 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DAFA61FE176C400C056C6 /* History.swift */; };
@@ -22,6 +33,9 @@
 		4E5DAFAF1FE176C400C056C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DAFAD1FE176C400C056C6 /* LaunchScreen.storyboard */; };
 		4E5DAFBA1FE176C400C056C6 /* Dosimetry_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DAFB91FE176C400C056C6 /* Dosimetry_CalculatorTests.swift */; };
 		4E5DAFC51FE176C400C056C6 /* Dosimetry_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DAFC41FE176C400C056C6 /* Dosimetry_CalculatorUITests.swift */; };
+		4E686ABC2052E8DB0034E446 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E686ABB2052E8DB0034E446 /* Storage.swift */; };
+		4E68D1572050B3760027BB5E /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E68D1562050B3760027BB5E /* Main.swift */; };
+		4E79BFF82046FF7A006FC6E0 /* Tables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E79BFF72046FF7A006FC6E0 /* Tables.swift */; };
 		4E8394302006785E002EEB73 /* NSH Trilogy #706_6 MV_WedgeFactors.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E83941A2006785D002EEB73 /* NSH Trilogy #706_6 MV_WedgeFactors.csv */; };
 		4E8394312006785E002EEB73 /* NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E83941B2006785D002EEB73 /* NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv */; };
 		4E8394322006785E002EEB73 /* NSH Trilogy #706_6 MV_Outputs.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E83941C2006785D002EEB73 /* NSH Trilogy #706_6 MV_Outputs.csv */; };
@@ -37,13 +51,13 @@
 		4E8394472006CAB9002EEB73 /* 18MVscp.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4E8394462006CAB9002EEB73 /* 18MVscp.csv */; };
 		4E839449200D61F8002EEB73 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E839448200D61F8002EEB73 /* Settings.swift */; };
 		4E83944D200ED7DC002EEB73 /* 6mvTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83944C200ED7DC002EEB73 /* 6mvTables.swift */; };
-		4EE475B11FF888D700861511 /* SADResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE475B01FF888D700861511 /* SADResult.swift */; };
-		4EE73B7C1FF5B54C00E4D16F /* SSDCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B7B1FF5B54C00E4D16F /* SSDCalculation.swift */; };
-		4EE73B801FF5C4EE00E4D16F /* SADCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B7F1FF5C4EE00E4D16F /* SADCalculation.swift */; };
+		4EBAFF40205228FA00714705 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBAFF3F205228FA00714705 /* HistoryView.swift */; };
+		4EE73B7C1FF5B54C00E4D16F /* InputPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B7B1FF5B54C00E4D16F /* InputPage.swift */; };
 		4EE73B821FF5F24000E4D16F /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B811FF5F24000E4D16F /* DecimalMinusTextField.swift */; };
 		4EE73B891FF6B33900E4D16F /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B881FF6B33900E4D16F /* TPKeyboardAvoidingScrollView.m */; };
 		4EE73B8C1FF6B39800E4D16F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B8A1FF6B39700E4D16F /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
-		4EE73B8E1FF6CB2500E4D16F /* SSDResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B8D1FF6CB2500E4D16F /* SSDResult.swift */; };
+		4EE73B8E1FF6CB2500E4D16F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE73B8D1FF6CB2500E4D16F /* Result.swift */; };
+		F77FDC2F4648EB17D474CA50 /* Pods_Dosimetry_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1E9D35C770AE3DA55DAC0A /* Pods_Dosimetry_Calculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +78,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BBBF8B777AF84D9F9EB9211 /* Pods-Dosimetry Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dosimetry Calculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dosimetry Calculator/Pods-Dosimetry Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		3BBAD063F4B9BBFDED2E3E3D /* Pods-Dosimetry CalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dosimetry CalculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dosimetry CalculatorTests/Pods-Dosimetry CalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48EA0D843075770849DB2FFE /* Pods-Dosimetry CalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dosimetry CalculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dosimetry CalculatorUITests/Pods-Dosimetry CalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E01072B20473F55001712B4 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		4E139890203B879800455E6E /* 10mvTables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10mvTables.swift; sourceTree = "<group>"; };
 		4E139892203B87AA00455E6E /* 18mvTables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18mvTables.swift; sourceTree = "<group>"; };
 		4E139894203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv"; sourceTree = "<group>"; };
@@ -71,6 +89,14 @@
 		4E47DC792044BD1E0022BECF /* SwiftCSV */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwiftCSV; sourceTree = "<group>"; };
 		4E47DC7B2044D2CD0022BECF /* NSC ClinaciX #3358_10X_NONE_PDD_Table.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSC ClinaciX #3358_10X_NONE_PDD_Table.csv"; sourceTree = "<group>"; };
 		4E47DC7F2044EB1B0022BECF /* 10MVscp.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10MVscp.csv; sourceTree = "<group>"; };
+		4E4866972047AD6B00923F0F /* SpreadsheetRightRowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpreadsheetRightRowView.xib; sourceTree = "<group>"; };
+		4E4866982047AD6B00923F0F /* SpreadsheetBottomLeftDecorationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpreadsheetBottomLeftDecorationView.xib; sourceTree = "<group>"; };
+		4E4866992047AD6B00923F0F /* SpreadsheetTopColumnView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpreadsheetTopColumnView.xib; sourceTree = "<group>"; };
+		4E48669A2047AD6B00923F0F /* SpreadsheetLeftRowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpreadsheetLeftRowView.xib; sourceTree = "<group>"; };
+		4E48669B2047AD6C00923F0F /* SpreadsheetTopLeftDecorationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpreadsheetTopLeftDecorationView.xib; sourceTree = "<group>"; };
+		4E48669C2047AD6C00923F0F /* SpreadsheetTopRightDecorationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpreadsheetTopRightDecorationView.xib; sourceTree = "<group>"; };
+		4E48669D2047AD6C00923F0F /* SpreadsheetBottomRightDecorationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpreadsheetBottomRightDecorationView.xib; sourceTree = "<group>"; };
+		4E48669E2047AD6C00923F0F /* SpreadsheetBottomColumnView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpreadsheetBottomColumnView.xib; sourceTree = "<group>"; };
 		4E5DAF9F1FE176C400C056C6 /* Dosimetry Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dosimetry Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5DAFA21FE176C400C056C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E5DAFA41FE176C400C056C6 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
@@ -85,6 +111,9 @@
 		4E5DAFC01FE176C400C056C6 /* Dosimetry CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dosimetry CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5DAFC41FE176C400C056C6 /* Dosimetry_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dosimetry_CalculatorUITests.swift; sourceTree = "<group>"; };
 		4E5DAFC61FE176C400C056C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E686ABB2052E8DB0034E446 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		4E68D1562050B3760027BB5E /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		4E79BFF72046FF7A006FC6E0 /* Tables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tables.swift; sourceTree = "<group>"; };
 		4E83941A2006785D002EEB73 /* NSH Trilogy #706_6 MV_WedgeFactors.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSH Trilogy #706_6 MV_WedgeFactors.csv"; sourceTree = "<group>"; };
 		4E83941B2006785D002EEB73 /* NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv"; sourceTree = "<group>"; };
 		4E83941C2006785D002EEB73 /* NSH Trilogy #706_6 MV_Outputs.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSH Trilogy #706_6 MV_Outputs.csv"; sourceTree = "<group>"; };
@@ -100,16 +129,21 @@
 		4E8394462006CAB9002EEB73 /* 18MVscp.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 18MVscp.csv; sourceTree = "<group>"; };
 		4E839448200D61F8002EEB73 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		4E83944C200ED7DC002EEB73 /* 6mvTables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6mvTables.swift; sourceTree = "<group>"; };
-		4EE475B01FF888D700861511 /* SADResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SADResult.swift; sourceTree = "<group>"; };
-		4EE73B7B1FF5B54C00E4D16F /* SSDCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDCalculation.swift; sourceTree = "<group>"; };
-		4EE73B7F1FF5C4EE00E4D16F /* SADCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SADCalculation.swift; sourceTree = "<group>"; };
+		4EBAFF3F205228FA00714705 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		4EE73B7B1FF5B54C00E4D16F /* InputPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPage.swift; sourceTree = "<group>"; };
 		4EE73B811FF5F24000E4D16F /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalMinusTextField.swift; sourceTree = "<group>"; };
 		4EE73B861FF6B33800E4D16F /* Dosimetry Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dosimetry Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
 		4EE73B871FF6B33900E4D16F /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		4EE73B881FF6B33900E4D16F /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		4EE73B8A1FF6B39700E4D16F /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		4EE73B8B1FF6B39800E4D16F /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
-		4EE73B8D1FF6CB2500E4D16F /* SSDResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDResult.swift; sourceTree = "<group>"; };
+		4EE73B8D1FF6CB2500E4D16F /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		5FF54AAAE7AD0C627FCC62F7 /* Pods-Dosimetry Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dosimetry Calculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dosimetry Calculator/Pods-Dosimetry Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		856006F9185A9B9B2F15606A /* Pods-Dosimetry CalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dosimetry CalculatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dosimetry CalculatorUITests/Pods-Dosimetry CalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E99A6E94A65EABBBBA46C2B /* Pods-Dosimetry CalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dosimetry CalculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dosimetry CalculatorTests/Pods-Dosimetry CalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		C53C6DB270793F17CDF87F77 /* Pods_Dosimetry_CalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dosimetry_CalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1E9D35C770AE3DA55DAC0A /* Pods_Dosimetry_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dosimetry_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9A043F2115E5219B5A989A /* Pods_Dosimetry_CalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dosimetry_CalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77FDC2F4648EB17D474CA50 /* Pods_Dosimetry_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402B2B3D64BE611698AED778 /* Pods_Dosimetry_CalculatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,12 +167,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E2D8D9FCAF2B870789979D /* Pods_Dosimetry_CalculatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E4866962047ACD400923F0F /* Decorative Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E48669E2047AD6C00923F0F /* SpreadsheetBottomColumnView.xib */,
+				4E4866982047AD6B00923F0F /* SpreadsheetBottomLeftDecorationView.xib */,
+				4E48669D2047AD6C00923F0F /* SpreadsheetBottomRightDecorationView.xib */,
+				4E48669A2047AD6B00923F0F /* SpreadsheetLeftRowView.xib */,
+				4E4866972047AD6B00923F0F /* SpreadsheetRightRowView.xib */,
+				4E4866992047AD6B00923F0F /* SpreadsheetTopColumnView.xib */,
+				4E48669B2047AD6C00923F0F /* SpreadsheetTopLeftDecorationView.xib */,
+				4E48669C2047AD6C00923F0F /* SpreadsheetTopRightDecorationView.xib */,
+			);
+			path = "Decorative Views";
+			sourceTree = "<group>";
+		};
 		4E5DAF961FE176C400C056C6 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +196,8 @@
 				4E5DAFB81FE176C400C056C6 /* Dosimetry CalculatorTests */,
 				4E5DAFC31FE176C400C056C6 /* Dosimetry CalculatorUITests */,
 				4E5DAFA01FE176C400C056C6 /* Products */,
+				9F37F624F21D391AC53D2BDC /* Pods */,
+				8C57BA4641F070615C6FCE44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,24 +214,26 @@
 		4E5DAFA11FE176C400C056C6 /* Dosimetry Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				4E4866962047ACD400923F0F /* Decorative Views */,
+				4E62ECAD2052F8C00030EAB7 /* Calc Data */,
 				4E839417200677BB002EEB73 /* Data Tables */,
 				4EE73B831FF5F8DB00E4D16F /* Extensions */,
 				4E5DAFA21FE176C400C056C6 /* AppDelegate.swift */,
+				4E686ABB2052E8DB0034E446 /* Storage.swift */,
 				4E5DAFA41FE176C400C056C6 /* Calculator.swift */,
-				4E5DAFA61FE176C400C056C6 /* History.swift */,
 				4E5DAFA81FE176C400C056C6 /* Main.storyboard */,
 				4E5DAFAB1FE176C400C056C6 /* Assets.xcassets */,
 				4E5DAFAD1FE176C400C056C6 /* LaunchScreen.storyboard */,
 				4E5DAFB01FE176C400C056C6 /* Info.plist */,
-				4EE73B7B1FF5B54C00E4D16F /* SSDCalculation.swift */,
-				4EE73B7F1FF5C4EE00E4D16F /* SADCalculation.swift */,
+				4E68D1562050B3760027BB5E /* Main.swift */,
+				4EE73B7B1FF5B54C00E4D16F /* InputPage.swift */,
 				4EE73B861FF6B33800E4D16F /* Dosimetry Calculator-Bridging-Header.h */,
-				4EE73B8D1FF6CB2500E4D16F /* SSDResult.swift */,
-				4EE475B01FF888D700861511 /* SADResult.swift */,
+				4EE73B8D1FF6CB2500E4D16F /* Result.swift */,
 				4E839448200D61F8002EEB73 /* Settings.swift */,
-				4E83944C200ED7DC002EEB73 /* 6mvTables.swift */,
-				4E139890203B879800455E6E /* 10mvTables.swift */,
-				4E139892203B87AA00455E6E /* 18mvTables.swift */,
+				4E5DAFA61FE176C400C056C6 /* History.swift */,
+				4EBAFF3F205228FA00714705 /* HistoryView.swift */,
+				4E79BFF72046FF7A006FC6E0 /* Tables.swift */,
+				4E01072B20473F55001712B4 /* TableView.swift */,
 			);
 			path = "Dosimetry Calculator";
 			sourceTree = "<group>";
@@ -198,6 +254,16 @@
 				4E5DAFC61FE176C400C056C6 /* Info.plist */,
 			);
 			path = "Dosimetry CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		4E62ECAD2052F8C00030EAB7 /* Calc Data */ = {
+			isa = PBXGroup;
+			children = (
+				4E83944C200ED7DC002EEB73 /* 6mvTables.swift */,
+				4E139890203B879800455E6E /* 10mvTables.swift */,
+				4E139892203B87AA00455E6E /* 18mvTables.swift */,
+			);
+			name = "Calc Data";
 			sourceTree = "<group>";
 		};
 		4E839417200677BB002EEB73 /* Data Tables */ = {
@@ -237,6 +303,29 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		8C57BA4641F070615C6FCE44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD1E9D35C770AE3DA55DAC0A /* Pods_Dosimetry_Calculator.framework */,
+				C53C6DB270793F17CDF87F77 /* Pods_Dosimetry_CalculatorTests.framework */,
+				EE9A043F2115E5219B5A989A /* Pods_Dosimetry_CalculatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F37F624F21D391AC53D2BDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FF54AAAE7AD0C627FCC62F7 /* Pods-Dosimetry Calculator.debug.xcconfig */,
+				2BBBF8B777AF84D9F9EB9211 /* Pods-Dosimetry Calculator.release.xcconfig */,
+				3BBAD063F4B9BBFDED2E3E3D /* Pods-Dosimetry CalculatorTests.debug.xcconfig */,
+				9E99A6E94A65EABBBBA46C2B /* Pods-Dosimetry CalculatorTests.release.xcconfig */,
+				48EA0D843075770849DB2FFE /* Pods-Dosimetry CalculatorUITests.debug.xcconfig */,
+				856006F9185A9B9B2F15606A /* Pods-Dosimetry CalculatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -244,9 +333,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E5DAFC91FE176C400C056C6 /* Build configuration list for PBXNativeTarget "Dosimetry Calculator" */;
 			buildPhases = (
+				0124AD3A443D7F28B1982338 /* [CP] Check Pods Manifest.lock */,
 				4E5DAF9B1FE176C400C056C6 /* Sources */,
 				4E5DAF9C1FE176C400C056C6 /* Frameworks */,
 				4E5DAF9D1FE176C400C056C6 /* Resources */,
+				8E03FFDFE707B3BFB4CC8665 /* [CP] Embed Pods Frameworks */,
+				5C731184400252008025AD75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,9 +353,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E5DAFCC1FE176C400C056C6 /* Build configuration list for PBXNativeTarget "Dosimetry CalculatorTests" */;
 			buildPhases = (
+				4F1D1CFEA074C6C7D99D35E4 /* [CP] Check Pods Manifest.lock */,
 				4E5DAFB11FE176C400C056C6 /* Sources */,
 				4E5DAFB21FE176C400C056C6 /* Frameworks */,
 				4E5DAFB31FE176C400C056C6 /* Resources */,
+				002076B03D262AC92EDBB909 /* [CP] Embed Pods Frameworks */,
+				D4391EE9ECA1DAAF258E7A7F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,9 +374,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E5DAFCF1FE176C400C056C6 /* Build configuration list for PBXNativeTarget "Dosimetry CalculatorUITests" */;
 			buildPhases = (
+				7A1B496675AA266B5720C0A3 /* [CP] Check Pods Manifest.lock */,
 				4E5DAFBC1FE176C400C056C6 /* Sources */,
 				4E5DAFBD1FE176C400C056C6 /* Frameworks */,
 				4E5DAFBE1FE176C400C056C6 /* Resources */,
+				3B75E24533EF458D4358D1F7 /* [CP] Embed Pods Frameworks */,
+				865A2C9D779DBE57D7A74994 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -349,9 +447,17 @@
 				4E47DC7C2044D2CD0022BECF /* NSC ClinaciX #3358_10X_NONE_PDD_Table.csv in Resources */,
 				4E139896203B889800455E6E /* NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv in Resources */,
 				4E8394302006785E002EEB73 /* NSH Trilogy #706_6 MV_WedgeFactors.csv in Resources */,
+				4E4866A32047AD6C00923F0F /* SpreadsheetTopLeftDecorationView.xib in Resources */,
 				4E47DC7A2044BD1E0022BECF /* SwiftCSV in Resources */,
 				4E83943F2006785E002EEB73 /* trilogy output.csv in Resources */,
+				4E4866A22047AD6C00923F0F /* SpreadsheetLeftRowView.xib in Resources */,
 				4E47DC802044EB1B0022BECF /* 10MVscp.csv in Resources */,
+				4E4866A02047AD6C00923F0F /* SpreadsheetBottomLeftDecorationView.xib in Resources */,
+				4E48669F2047AD6C00923F0F /* SpreadsheetRightRowView.xib in Resources */,
+				4E4866A62047AD6C00923F0F /* SpreadsheetBottomColumnView.xib in Resources */,
+				4E4866A52047AD6C00923F0F /* SpreadsheetBottomRightDecorationView.xib in Resources */,
+				4E4866A42047AD6C00923F0F /* SpreadsheetTopRightDecorationView.xib in Resources */,
+				4E4866A12047AD6C00923F0F /* SpreadsheetTopColumnView.xib in Resources */,
 				4E8394382006785E002EEB73 /* NSH Trilogy #706_18 MV_WedgeFactors.csv in Resources */,
 				4E8394452006C8F8002EEB73 /* 6MVscp.csv in Resources */,
 				4E8394342006785E002EEB73 /* NSH Trilogy #706_6 MV_NONE_TPR_Table.csv in Resources */,
@@ -385,6 +491,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		002076B03D262AC92EDBB909 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dosimetry CalculatorTests/Pods-Dosimetry CalculatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0124AD3A443D7F28B1982338 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dosimetry Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B75E24533EF458D4358D1F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dosimetry CalculatorUITests/Pods-Dosimetry CalculatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F1D1CFEA074C6C7D99D35E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dosimetry CalculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C731184400252008025AD75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dosimetry Calculator/Pods-Dosimetry Calculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A1B496675AA266B5720C0A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dosimetry CalculatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		865A2C9D779DBE57D7A74994 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dosimetry CalculatorUITests/Pods-Dosimetry CalculatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E03FFDFE707B3BFB4CC8665 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dosimetry Calculator/Pods-Dosimetry Calculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SpreadsheetView/SpreadsheetView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSpreadsheet/SwiftSpreadsheet.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpreadsheetView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpreadsheet.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dosimetry Calculator/Pods-Dosimetry Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4391EE9ECA1DAAF258E7A7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dosimetry CalculatorTests/Pods-Dosimetry CalculatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E5DAF9B1FE176C400C056C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -393,14 +651,17 @@
 				4E139893203B87AA00455E6E /* 18mvTables.swift in Sources */,
 				4EE73B891FF6B33900E4D16F /* TPKeyboardAvoidingScrollView.m in Sources */,
 				4EE73B821FF5F24000E4D16F /* DecimalMinusTextField.swift in Sources */,
-				4EE73B7C1FF5B54C00E4D16F /* SSDCalculation.swift in Sources */,
-				4EE73B8E1FF6CB2500E4D16F /* SSDResult.swift in Sources */,
+				4EE73B7C1FF5B54C00E4D16F /* InputPage.swift in Sources */,
+				4EE73B8E1FF6CB2500E4D16F /* Result.swift in Sources */,
+				4E686ABC2052E8DB0034E446 /* Storage.swift in Sources */,
+				4E68D1572050B3760027BB5E /* Main.swift in Sources */,
 				4E5DAFA71FE176C400C056C6 /* History.swift in Sources */,
 				4E5DAFA31FE176C400C056C6 /* AppDelegate.swift in Sources */,
 				4EE73B8C1FF6B39800E4D16F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
-				4EE475B11FF888D700861511 /* SADResult.swift in Sources */,
-				4EE73B801FF5C4EE00E4D16F /* SADCalculation.swift in Sources */,
+				4EBAFF40205228FA00714705 /* HistoryView.swift in Sources */,
+				4E79BFF82046FF7A006FC6E0 /* Tables.swift in Sources */,
 				4E139891203B879800455E6E /* 10mvTables.swift in Sources */,
+				4E01072C20473F55001712B4 /* TableView.swift in Sources */,
 				4E839449200D61F8002EEB73 /* Settings.swift in Sources */,
 				4E83944D200ED7DC002EEB73 /* 6mvTables.swift in Sources */,
 				4E5DAFA51FE176C400C056C6 /* Calculator.swift in Sources */,
@@ -567,6 +828,7 @@
 		};
 		4E5DAFCA1FE176C400C056C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF54AAAE7AD0C627FCC62F7 /* Pods-Dosimetry Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CLANG_ENABLE_MODULES = YES;
@@ -586,6 +848,7 @@
 		};
 		4E5DAFCB1FE176C400C056C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BBBF8B777AF84D9F9EB9211 /* Pods-Dosimetry Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CLANG_ENABLE_MODULES = YES;
@@ -604,6 +867,7 @@
 		};
 		4E5DAFCD1FE176C400C056C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBAD063F4B9BBFDED2E3E3D /* Pods-Dosimetry CalculatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -621,6 +885,7 @@
 		};
 		4E5DAFCE1FE176C400C056C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E99A6E94A65EABBBBA46C2B /* Pods-Dosimetry CalculatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -638,6 +903,7 @@
 		};
 		4E5DAFD01FE176C400C056C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EA0D843075770849DB2FFE /* Pods-Dosimetry CalculatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -656,6 +922,7 @@
 		};
 		4E5DAFD11FE176C400C056C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856006F9185A9B9B2F15606A /* Pods-Dosimetry CalculatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
