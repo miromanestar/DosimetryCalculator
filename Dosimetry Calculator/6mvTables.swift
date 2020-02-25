@@ -11,7 +11,7 @@ import Foundation
 class sixMVTables {
     
     static public var sixMvSCP = """
-    Field Size,"Sc,p"
+    Field Size,SCP
     1.0,0.367
     1.5,0.560
     2.0,0.753

@@ -10,7 +10,7 @@ import Foundation
 
 class eighttMVTables {
     static public var eighttMvSCP = """
-    Field Size,"Sc,p"
+    Field Size,SCP
     1.0,0.312
     1.5,0.497
     2.0,0.681

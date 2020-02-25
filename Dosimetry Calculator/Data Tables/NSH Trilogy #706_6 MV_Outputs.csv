@@ -1,0 +1,24 @@
+Northside Hospital Cancer Center: NSH Trilogy #706, 6 MV Photon MU Calc Params Table
+Photon MU Calculation Factors for NSH Trilogy #706, 6 MV Photons
+Collimator Scatter Factors
+Field Size Increases to the Right->
+Wedge Name,5.0,6.0,7.0,8.0,9.0,10.0,12.0,14.0,16.0,18.0,20.0,22.0,24.0,26.0,28.0,30.0
+NONE,0.963,0.972,0.981,0.987,0.994,1.000,1.007,1.013,1.018,1.022,1.026,1.029,1.032,1.035,1.038,1.041
+
+Phantom Scatter Factors
+Field Size Increases to the Right->
+Wedge Name,5.0,6.0,7.0,8.0,9.0,10.0,12.0,14.0,16.0,18.0,20.0,22.0,24.0,26.0,28.0,30.0
+NONE,0.978,0.983,0.988,0.992,0.996,1.000,1.009,1.013,1.018,1.022,1.026,1.029,1.032,1.036,1.039,1.042
+
+Attenuator Factors
+Attenuator Name,Attenuator Factor
+Standard Tray,0.968
+Slotted Tray,0.981
+
+Reference ParametersReference SSD =,100.0 cm
+Reference Depth =,1.60 cm
+Reference Field Size =,².1f x ².1f cm
+Calibration at Reference =,1.0000 cGy/MU
+
+RadCalc v6.3  Build 2.2
+01/09/2018  11:12:08 AM

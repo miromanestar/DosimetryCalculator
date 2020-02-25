@@ -1,0 +1,15 @@
+PODS:
+  - SpreadsheetView (0.8.4)
+  - SwiftSpreadsheet (1.1.0)
+
+DEPENDENCIES:
+  - SpreadsheetView
+  - SwiftSpreadsheet
+
+SPEC CHECKSUMS:
+  SpreadsheetView: 17c55b6dc82099993cc2ceb818248d19f3220998
+  SwiftSpreadsheet: bf014416e9186f1e4aee2b391fb45e5d4f21e1be
+
+PODFILE CHECKSUM: 15b872005ab391ffdec560765d1b5c7f8b92da19
+
+COCOAPODS: 1.4.0

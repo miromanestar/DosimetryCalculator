@@ -12,9 +12,8 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
         //Sometimes Settings.userName won't set itself correctly, so this ensures it's set at launch
@@ -22,7 +21,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if(defaults.string(forKey: "user") != nil) {
             Settings.userName = defaults.string(forKey: "user")!
         }
-        
+        if(Storage.fileExists("history.json", in: .documents)) {
+            History.historyArr = Storage.retrieve("history.json", from: .documents, as: [FinalResults].self)
+        }
+        if(defaults.bool(forKey: "eula") == true) {
+            Main.eula = defaults.bool(forKey: "eula")
+        }
         return true
     }
 
@@ -36,10 +40,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
         
         //Store's that one option in the "setting(s?)" page
+        Storage.store(History.historyArr, to: .documents, as: "history.json")
+
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        if(Storage.fileExists("history.json", in: .documents)) {
+            History.historyArr = Storage.retrieve("history.json", from: .documents, as: [FinalResults].self)
+        }
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
@@ -51,6 +60,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let defaults = UserDefaults.standard
         defaults.set(Settings.machineISO, forKey: "userISO")
         defaults.set(Settings.userName, forKey: "user")
+    
+        Storage.store(History.historyArr, to: .documents, as: "history.json")
     }
 }
 

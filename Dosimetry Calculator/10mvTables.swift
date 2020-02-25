@@ -10,7 +10,7 @@ import Foundation
 
 class tenMVTables {
    static public var tenMvSCP = """
-    Field Size,"Sc,p"
+    Field Size,SCP
     1.0,0.937
     1.5,0.94
     2.0,0.944

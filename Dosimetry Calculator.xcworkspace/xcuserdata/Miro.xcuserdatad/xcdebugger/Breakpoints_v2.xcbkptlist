@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "31E1678E-5128-4D9A-A3B3-464D462F2ECD"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09329B32-DE28-46CD-BE38-958CBAF86108"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/TableView.swift"
+            timestampString = "542310507.538705"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "init(coder:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29273BC7-8CAB-4A56-9E20-E4ACAA7B30C5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/TableView.swift"
+            timestampString = "542310507.538788"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "init(coder:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "019B2B15-8595-404D-8527-C6D5642EE0B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/TableView.swift"
+            timestampString = "542310507.538854"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "init(coder:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDBCC56D-41F4-4A82-8E66-2C5461E0C6E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/TableView.swift"
+            timestampString = "542310507.5389121"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "039EC732-EE2B-4CA8-B6BD-D69E1AE00713"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/TableView.swift"
+            timestampString = "542310507.538972"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26584E7C-C9F0-47AB-A2AE-66F7A370591C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/TableView.swift"
+            timestampString = "542310507.539036"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17BA7A30-8965-40C8-AEBB-9AAEEB55D8A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/Tables.swift"
+            timestampString = "543103545.3482651"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "sixSCPTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DE936F9-2772-4ADB-86CD-597667DF78F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/Tables.swift"
+            timestampString = "543103545.348357"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "sixSCPTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97487069-D6C2-46BE-B22B-99B219B84510"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/TableView.swift"
+            timestampString = "542310507.53915"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "init(coder:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "742CDE37-BDFE-48D6-9CB5-FA3E7E8EE23B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/TableView.swift"
+            timestampString = "542310507.53921"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "init(coder:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CE6C8BE-4188-4405-9BE0-85017BEDEFF6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/InputPage.swift"
+            timestampString = "543248105.032558"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "342"
+            endingLineNumber = "342"
+            landmarkName = "scriptChanged(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7830719-8E6B-4A69-A2E9-8E3455B8CE12"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/InputPage.swift"
+            timestampString = "543248105.032712"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "390"
+            endingLineNumber = "390"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "B7830719-8E6B-4A69-A2E9-8E3455B8CE12 - 49d51e1b369a917e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dosimetry_Calculator.Calcs.init(patientInput: Swift.String, siteInput: Swift.String, scriptInput: Swift.String, scriptChoiceInput: Swift.String, depthInput: Swift.String, length: Swift.String, width: Swift.String, squareInput: Swift.String, energyInput: Swift.String, ssdInput: Swift.String) -&gt; Dosimetry_Calculator.Calcs"
+                  moduleName = "Dosimetry Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Miro/OneDrive/Xcode%20Projects/Dosimetry%20Calculator/Dosimetry%20Calculator/InputPage.swift"
+                  timestampString = "542168316.806409"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "B7830719-8E6B-4A69-A2E9-8E3455B8CE12 - 3edcb21465b54ccc"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dosimetry_Calculator.Calcs.init() -&gt; Dosimetry_Calculator.Calcs"
+                  moduleName = "Dosimetry Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Miro/OneDrive/Xcode%20Projects/Dosimetry%20Calculator/Dosimetry%20Calculator/InputPage.swift"
+                  timestampString = "542168316.810047"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "396"
+                  endingLineNumber = "396"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8FCFDA7-0E0F-4FD2-AC17-104F0E2F5D62"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/InputPage.swift"
+            timestampString = "543248105.032796"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "387"
+            endingLineNumber = "387"
+            landmarkName = "InputPage"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A8FCFDA7-0E0F-4FD2-AC17-104F0E2F5D62 - 97ef12a093794096"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dosimetry_Calculator.InputPage.calcResults.unsafeMutableAddressor : Dosimetry_Calculator.Calcs"
+                  moduleName = "Dosimetry Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Miro/OneDrive/Xcode%20Projects/Dosimetry%20Calculator/Dosimetry%20Calculator/InputPage.swift"
+                  timestampString = "542168327.249089"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "390"
+                  endingLineNumber = "390"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "A8FCFDA7-0E0F-4FD2-AC17-104F0E2F5D62 - 4a37453ca2990666"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_91D07BD52DC64F9BAEBE90A7728AFB4E_func0"
+                  moduleName = "Dosimetry Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Miro/OneDrive/Xcode%20Projects/Dosimetry%20Calculator/Dosimetry%20Calculator/InputPage.swift"
+                  timestampString = "542168327.252349"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "390"
+                  endingLineNumber = "390"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "A8FCFDA7-0E0F-4FD2-AC17-104F0E2F5D62 - 27e7a8eb4a1ef95f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Dosimetry_Calculator.InputPage.calcResults.getter : Dosimetry_Calculator.Calcs"
+                  moduleName = "Dosimetry Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Miro/OneDrive/Xcode%20Projects/Dosimetry%20Calculator/Dosimetry%20Calculator/InputPage.swift"
+                  timestampString = "542168327.255599"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "390"
+                  endingLineNumber = "390"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "A8FCFDA7-0E0F-4FD2-AC17-104F0E2F5D62 - da2390bfe64d614b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Dosimetry_Calculator.InputPage.calcResults.setter : Dosimetry_Calculator.Calcs"
+                  moduleName = "Dosimetry Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Miro/OneDrive/Xcode%20Projects/Dosimetry%20Calculator/Dosimetry%20Calculator/InputPage.swift"
+                  timestampString = "542168327.258834"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "390"
+                  endingLineNumber = "390"
+                  offsetFromSymbolStart = "940">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35EDF711-39BD-4F81-987D-F0E130401EE1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/InputPage.swift"
+            timestampString = "543248105.032872"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
+            landmarkName = "enterPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "137933B9-E3F1-4D21-AA4B-6726D1D34DBC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/InputPage.swift"
+            timestampString = "543248105.0329469"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "305"
+            endingLineNumber = "305"
+            landmarkName = "enterPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE47C1AF-A015-4623-B4A2-4814475D6B67"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dosimetry Calculator/Main.swift"
+            timestampString = "543613808.278038"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

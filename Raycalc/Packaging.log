@@ -1,0 +1,1266 @@
+2018-08-30 23:26:20 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc8a57976a0; archive(resolved)='<IDEArchive: 0x7fc8a572fbe0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8a5b2a240>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fc8a60b18d0; teamID='U52Z3R95LS', teamName='Andrija Manestar'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc8a57976a0; archive = '<IDEArchive: 0x7fc8a572fbe0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8a5b2a240>', team='<IDEProvisioningBasicTeam: 0x7fc8a60b18d0; teamID='U52Z3R95LS', teamName='Andrija Manestar'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fc8a5fbbfc0; archive = '<IDEArchive: 0x7fc8a572fbe0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8a5b2a240>', team='<IDEProvisioningBasicTeam: 0x7fc8a60b18d0; teamID='U52Z3R95LS', teamName='Andrija Manestar'>'>
+	<IDEDistributionContext: 0x7fc8a608dc90; archive = '<IDEArchive: 0x7fc8a572fbe0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8a5b2a240>', team='<IDEProvisioningBasicTeam: 0x7fc8a60b18d0; teamID='U52Z3R95LS', teamName='Andrija Manestar'>'>
+	<IDEDistributionContext: 0x7fc8a181a000; archive = '<IDEArchive: 0x7fc8a572fbe0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8a5b2a240>', team='<IDEProvisioningBasicTeam: 0x7fc8a60b18d0; teamID='U52Z3R95LS', teamName='Andrija Manestar'>'>
+	<IDEDistributionContext: 0x7fc8a1818ea0; archive = '<IDEArchive: 0x7fc8a572fbe0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8a5b2a240>', team='<IDEProvisioningBasicTeam: 0x7fc8a60b18d0; teamID='U52Z3R95LS', teamName='Andrija Manestar'>'>
+	<IDEDistributionContext: 0x7fc8a4cc44a0; archive = '<IDEArchive: 0x7fc8a572fbe0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8a5b2a240>', team='<IDEProvisioningBasicTeam: 0x7fc8a60b18d0; teamID='U52Z3R95LS', teamName='Andrija Manestar'>'>
+	<IDEDistributionContext: 0x7fc8a54012c0; archive = '<IDEArchive: 0x7fc8a572fbe0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8a5b2a240>', team='<IDEProvisioningBasicTeam: 0x7fc8a60b18d0; teamID='U52Z3R95LS', teamName='Andrija Manestar'>'>
+	<IDEDistributionContext: 0x7fc8a5fc4650; archive = '<IDEArchive: 0x7fc8a572fbe0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8a5b2a240>', team='<IDEProvisioningBasicTeam: 0x7fc8a60b18d0; teamID='U52Z3R95LS', teamName='Andrija Manestar'>'>
+	<IDEDistributionContext: 0x7fc8a59e4aa0; archive = '<IDEArchive: 0x7fc8a572fbe0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8a5b2a240>', team='<IDEProvisioningBasicTeam: 0x7fc8a60b18d0; teamID='U52Z3R95LS', teamName='Andrija Manestar'>'>
+	<IDEDistributionContext: 0x7fc8a57cbff0; archive = '<IDEArchive: 0x7fc8a572fbe0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8a5b2a240>', team='(null)'>
+	<IDEDistributionContext: 0x7fc8a5b19250; archive = '<IDEArchive: 0x7fc8a572fbe0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc8a57976a0>
+2018-08-30 23:26:20 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-08-30 23:26:20 +0000  Processing step: IDEDistributionCopyItemStep
+2018-08-30 23:26:20 +0000  Running /usr/bin/ditto '-V' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app'
+2018-08-30 23:26:20 +0000  >>> Copying /Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app 
+2018-08-30 23:26:20 +0000  copying file ./18MVscp.csv ... 
+2018-08-30 23:26:20 +0000  871 bytes for ./18MVscp.csv
+2018-08-30 23:26:20 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-08-30 23:26:20 +0000  21501 bytes for ./_CodeSignature/CodeResources
+2018-08-30 23:26:20 +0000  copying file ./SpreadsheetTopRightDecorationView.nib ... 
+2018-08-30 23:26:20 +0000  4157 bytes for ./SpreadsheetTopRightDecorationView.nib
+2018-08-30 23:26:20 +0000  copying file ./SpreadsheetTopColumnView.nib ... 
+2018-08-30 23:26:20 +0000  3895 bytes for ./SpreadsheetTopColumnView.nib
+2018-08-30 23:26:20 +0000  copying file ./NSH Trilogy #706_6 MV_Outputs.csv ... 
+2018-08-30 23:26:20 +0000  965 bytes for ./NSH Trilogy #706_6 MV_Outputs.csv
+2018-08-30 23:26:20 +0000  copying file ./NSC ClinaciX #3358_10X_NONE_PDD_Table.csv ... 
+2018-08-30 23:26:20 +0000  2579 bytes for ./NSC ClinaciX #3358_10X_NONE_PDD_Table.csv
+2018-08-30 23:26:20 +0000  copying file ./NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv ... 
+2018-08-30 23:26:20 +0000  1051 bytes for ./NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv
+2018-08-30 23:26:20 +0000  copying file ./NSH Trilogy #706_18 MV_Outputs.csv ... 
+2018-08-30 23:26:20 +0000  967 bytes for ./NSH Trilogy #706_18 MV_Outputs.csv
+2018-08-30 23:26:20 +0000  copying file ./AppIcon-160x60@2x.png ... 
+2018-08-30 23:26:20 +0000  9988 bytes for ./AppIcon-160x60@2x.png
+2018-08-30 23:26:20 +0000  copying file ./SpreadsheetRightRowView.nib ... 
+2018-08-30 23:26:20 +0000  3691 bytes for ./SpreadsheetRightRowView.nib
+copying file ./NSH Trilogy #706_6 MV_NONE_TPR_Table.csv ... 
+2018-08-30 23:26:20 +0000  2538 bytes for ./NSH Trilogy #706_6 MV_NONE_TPR_Table.csv
+2018-08-30 23:26:20 +0000  copying file ./SpreadsheetBottomRightDecorationView.nib ... 
+2018-08-30 23:26:20 +0000  1986 bytes for ./SpreadsheetBottomRightDecorationView.nib
+2018-08-30 23:26:20 +0000  copying file ./SwiftCSV/Description.swift ... 
+2018-08-30 23:26:20 +0000  472 bytes for ./SwiftCSV/Description.swift
+2018-08-30 23:26:20 +0000  copying file ./SwiftCSV/CSV.swift ... 
+2018-08-30 23:26:20 +0000  2666 bytes for ./SwiftCSV/CSV.swift
+2018-08-30 23:26:20 +0000  copying file ./SwiftCSV/String+Lines.swift ... 
+2018-08-30 23:26:20 +0000  454 bytes for ./SwiftCSV/String+Lines.swift
+2018-08-30 23:26:20 +0000  copying file ./SwiftCSV/ParserHelpers.swift ... 
+2018-08-30 23:26:20 +0000  1752 bytes for ./SwiftCSV/ParserHelpers.swift
+2018-08-30 23:26:20 +0000  copying file ./SwiftCSV/Parser.swift ... 
+2018-08-30 23:26:20 +0000  4321 bytes for ./SwiftCSV/Parser.swift
+2018-08-30 23:26:20 +0000  copying file ./6MVscp.csv ... 
+2018-08-30 23:26:20 +0000  871 bytes for ./6MVscp.csv
+2018-08-30 23:26:20 +0000  copying file ./Dosimetry Calculator ... 
+2018-08-30 23:26:20 +0000  1617120 bytes for ./Dosimetry Calculator
+2018-08-30 23:26:20 +0000  copying file ./NSH Trilogy #706_6 MV_NONE_PDD_Table.csv ... 
+2526 bytes for ./NSH Trilogy #706_6 MV_NONE_PDD_Table.csv
+copying file ./SpreadsheetLeftRowView.nib ... 
+2991 bytes for ./SpreadsheetLeftRowView.nib
+copying file ./Base.lproj/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib ... 
+2018-08-30 23:26:20 +0000  5575 bytes for ./Base.lproj/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib
+copying file ./Base.lproj/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib ... 
+2018-08-30 23:26:20 +0000  4787 bytes for ./Base.lproj/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-zB3-Ej-cL5.nib ... 
+2018-08-30 23:26:20 +0000  946 bytes for ./Base.lproj/Main.storyboardc/UIViewController-zB3-Ej-cL5.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/aBe-b9-hsY-view-xcS-sc-KC1.nib ... 
+2018-08-30 23:26:20 +0000  5429 bytes for ./Base.lproj/Main.storyboardc/aBe-b9-hsY-view-xcS-sc-KC1.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-OGk-ne-DMD.nib ... 
+2018-08-30 23:26:20 +0000  2763 bytes for ./Base.lproj/Main.storyboardc/UIViewController-OGk-ne-DMD.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/R57-Hp-Byi-view-5gx-H8-Cze.nib ... 
+2018-08-30 23:26:20 +0000  1149 bytes for ./Base.lproj/Main.storyboardc/R57-Hp-Byi-view-5gx-H8-Cze.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-1h2-lJ-7V2.nib ... 
+2018-08-30 23:26:20 +0000  2939 bytes for ./Base.lproj/Main.storyboardc/UIViewController-1h2-lJ-7V2.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/6Sq-Ed-im9-view-ceg-yl-Y3y.nib ... 
+2018-08-30 23:26:20 +0000  9078 bytes for ./Base.lproj/Main.storyboardc/6Sq-Ed-im9-view-ceg-yl-Y3y.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/zB3-Ej-cL5-view-JJx-ME-XYW.nib ... 
+2018-08-30 23:26:20 +0000  3635 bytes for ./Base.lproj/Main.storyboardc/zB3-Ej-cL5-view-JJx-ME-XYW.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/OGk-ne-DMD-view-oZY-kT-b5g.nib ... 
+2018-08-30 23:26:20 +0000  12639 bytes for ./Base.lproj/Main.storyboardc/OGk-ne-DMD-view-oZY-kT-b5g.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/1h2-lJ-7V2-view-SlD-Sa-klP.nib ... 
+2018-08-30 23:26:20 +0000  16305 bytes for ./Base.lproj/Main.storyboardc/1h2-lJ-7V2-view-SlD-Sa-klP.nib
+copying file ./Base.lproj/Main.storyboardc/wAA-QU-0Zg-view-vet-cL-rEi.nib ... 
+2018-08-30 23:26:20 +0000  6175 bytes for ./Base.lproj/Main.storyboardc/wAA-QU-0Zg-view-vet-cL-rEi.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-q1H-ZK-O3f.nib ... 
+2018-08-30 23:26:20 +0000  1755 bytes for ./Base.lproj/Main.storyboardc/UIViewController-q1H-ZK-O3f.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-wAA-QU-0Zg.nib ... 
+2018-08-30 23:26:20 +0000  1475 bytes for ./Base.lproj/Main.storyboardc/UIViewController-wAA-QU-0Zg.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-08-30 23:26:20 +0000  669 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-aBe-b9-hsY.nib ... 
+2018-08-30 23:26:20 +0000  1363 bytes for ./Base.lproj/Main.storyboardc/UIViewController-aBe-b9-hsY.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/Main.storyboardc/q1H-ZK-O3f-view-V0B-xi-1Ee.nib ... 
+2018-08-30 23:26:20 +0000  10107 bytes for ./Base.lproj/Main.storyboardc/q1H-ZK-O3f-view-V0B-xi-1Ee.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-08-30 23:26:20 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-08-30 23:26:20 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-08-30 23:26:20 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-08-30 23:26:20 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-08-30 23:26:20 +0000  copying file ./trilogy output.csv ... 
+2018-08-30 23:26:20 +0000  1195 bytes for ./trilogy output.csv
+2018-08-30 23:26:20 +0000  copying file ./SpreadsheetTopLeftDecorationView.nib ... 
+2018-08-30 23:26:20 +0000  4066 bytes for ./SpreadsheetTopLeftDecorationView.nib
+2018-08-30 23:26:20 +0000  copying file ./AppIcon-176x76@2x~ipad.png ... 
+2018-08-30 23:26:20 +0000  16020 bytes for ./AppIcon-176x76@2x~ipad.png
+2018-08-30 23:26:20 +0000  copying file ./NSH Trilogy #706_18 MV_WedgeFactors.csv ... 
+2018-08-30 23:26:20 +0000  1909 bytes for ./NSH Trilogy #706_18 MV_WedgeFactors.csv
+2018-08-30 23:26:20 +0000  copying file ./Assets.car ... 
+2018-08-30 23:26:20 +0000  589560 bytes for ./Assets.car
+copying file ./SpreadsheetBottomColumnView.nib ... 
+2018-08-30 23:26:20 +0000  3868 bytes for ./SpreadsheetBottomColumnView.nib
+copying file ./10MVscp.csv ... 
+636 bytes for ./10MVscp.csv
+copying file ./NSH Trilogy #706_6 MV_WedgeFactors.csv ... 
+2018-08-30 23:26:20 +0000  1907 bytes for ./NSH Trilogy #706_6 MV_WedgeFactors.csv
+copying file ./NSH Trilogy #706_6 MV_NONE_4x4_OAR_Table.csv ... 
+2018-08-30 23:26:20 +0000  1050 bytes for ./NSH Trilogy #706_6 MV_NONE_4x4_OAR_Table.csv
+2018-08-30 23:26:20 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-08-30 23:26:20 +0000  349408 bytes for ./Frameworks/libswiftCoreImage.dylib
+2018-08-30 23:26:20 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-08-30 23:26:20 +0000  595872 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftCore.dylib ... 
+2018-08-30 23:26:20 +0000  66704336 bytes for ./Frameworks/libswiftCore.dylib
+2018-08-30 23:26:20 +0000  copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+1637568 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+1084800 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+457904 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2764080 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/SwiftSpreadsheet.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/SwiftSpreadsheet.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SwiftSpreadsheet.framework/SwiftSpreadsheet ... 
+415152 bytes for ./Frameworks/SwiftSpreadsheet.framework/SwiftSpreadsheet
+copying file ./Frameworks/SwiftSpreadsheet.framework/Info.plist ... 
+755 bytes for ./Frameworks/SwiftSpreadsheet.framework/Info.plist
+copying file ./Frameworks/libswiftos.dylib ... 
+2018-08-30 23:26:20 +0000  506160 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+299520 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+847744 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+352400 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/SpreadsheetView.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/SpreadsheetView.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SpreadsheetView.framework/SpreadsheetView ... 
+2474736 bytes for ./Frameworks/SpreadsheetView.framework/SpreadsheetView
+copying file ./Frameworks/SpreadsheetView.framework/Info.plist ... 
+2018-08-30 23:26:20 +0000  753 bytes for ./Frameworks/SpreadsheetView.framework/Info.plist
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-08-30 23:26:20 +0000  30207024 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-08-30 23:26:20 +0000  
+2018-08-30 23:26:20 +0000  /usr/bin/ditto exited with 02018-08-30 23:26:20 +0000  copying file ./NSA 2100CD #1201_10 MV_NONE_TPR_Table.csv ... 
+2539 bytes for ./NSA 2100CD #1201_10 MV_NONE_TPR_Table.csv
+copying file ./NSH Trilogy #706_18 MV_NONE_PDD_Table.csv ... 
+2579 bytes for ./NSH Trilogy #706_18 MV_NONE_PDD_Table.csv
+copying file ./embedded.mobileprovision ... 
+7695 bytes for ./embedded.mobileprovision
+copying file ./SpreadsheetBottomLeftDecorationView.nib ... 
+4036 bytes for ./SpreadsheetBottomLeftDecorationView.nib
+copying file ./Info.plist ... 
+1509 bytes for ./Info.plist
+copying file ./NSH Trilogy #706_18 MV_NONE_TPR_Table.csv ... 
+2539 bytes for ./NSH Trilogy #706_18 MV_NONE_TPR_Table.csv
+copying file ./NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv ... 
+2579 bytes for ./NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+
+2018-08-30 23:26:20 +0000  
+2018-08-30 23:26:20 +0000  2018-08-30 23:26:20 +0000  Processing step: IDEDistributionEmbedProfileStep
+
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8a5aeaaf0 'org.cocoapods.SpreadsheetView' '<DVTFilePath:0x7fc8a60973f0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/SpreadsheetView.framework'>'>
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8a579e680 'org.cocoapods.SwiftSpreadsheet' '<DVTFilePath:0x7fc8a5e7bd70:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/SwiftSpreadsheet.framework'>'>
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8a5e7fa10 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc8a5e56cb0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCore.dylib'>'>
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8a5aece50 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc8a5e78e70:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8a51f2e70 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc8a6319ad0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8a607fb00 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc8a48bcec0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8a607e870 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc8a5e71f40:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8a60aaf10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc8a5c25b30:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc89b59f740 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc8a5839320:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8a4bd5f90 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc8a5e68be0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftMetal.dylib'>'>
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8a5e77440 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc8a5183560:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8a5fc3b90 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc8a5e91640:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc89b689f60 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fc8a576be30:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-08-30 23:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8a5e40210 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc8a5e58c20:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftos.dylib'>'>
+2018-08-30 23:26:20 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-08-30 23:26:20 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-08-30 23:26:20 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-08-30 23:26:20 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-08-30 23:26:20 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-08-30 23:26:20 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-08-30 23:26:21 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-08-30 23:26:21 +0000  Running /usr/bin/ditto '-V' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/BCSymbolMaps/67B3F5C1-57E0-38CE-8CC8-019578FC2D67.bcsymbolmap' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/BCSymbolMaps/67B3F5C1-57E0-38CE-8CC8-019578FC2D67.bcsymbolmap'
+2018-08-30 23:26:21 +0000  >>> Copying /Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/BCSymbolMaps/67B3F5C1-57E0-38CE-8CC8-019578FC2D67.bcsymbolmap 
+2018-08-30 23:26:21 +0000  copying file ./67B3F5C1-57E0-38CE-8CC8-019578FC2D67.bcsymbolmap ... 
+2018-08-30 23:26:21 +0000  223514 bytes for ./67B3F5C1-57E0-38CE-8CC8-019578FC2D67.bcsymbolmap
+2018-08-30 23:26:21 +0000  
+2018-08-30 23:26:21 +0000  2018-08-30 23:26:21 +0000  /usr/bin/ditto exited with 02018-08-30 23:26:21 +0000  
+
+
+2018-08-30 23:26:21 +0000  Running /usr/bin/ditto '-V' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/BCSymbolMaps/2DC74268-87B3-31BA-8BBD-AE243F8C471A.bcsymbolmap' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/BCSymbolMaps/2DC74268-87B3-31BA-8BBD-AE243F8C471A.bcsymbolmap'
+2018-08-30 23:26:21 +0000  >>> Copying /Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/BCSymbolMaps/2DC74268-87B3-31BA-8BBD-AE243F8C471A.bcsymbolmap 
+2018-08-30 23:26:21 +0000  copying file ./2DC74268-87B3-31BA-8BBD-AE243F8C471A.bcsymbolmap ... 
+2018-08-30 23:26:21 +0000  40932 bytes for ./2DC74268-87B3-31BA-8BBD-AE243F8C471A.bcsymbolmap
+2018-08-30 23:26:21 +0000  2018-08-30 23:26:21 +0000  
+
+2018-08-30 23:26:21 +0000  
+2018-08-30 23:26:21 +0000  /usr/bin/ditto exited with 0
+2018-08-30 23:26:21 +0000  2018-08-30 23:26:21 +0000  
+
+2018-08-30 23:26:21 +0000  Running /usr/bin/ditto '-V' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/BCSymbolMaps/4C3C12ED-8A53-3B82-B04C-B3D1A25CB683.bcsymbolmap' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/BCSymbolMaps/4C3C12ED-8A53-3B82-B04C-B3D1A25CB683.bcsymbolmap'
+2018-08-30 23:26:21 +0000  >>> Copying /Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/BCSymbolMaps/4C3C12ED-8A53-3B82-B04C-B3D1A25CB683.bcsymbolmap 
+2018-08-30 23:26:21 +0000  copying file ./4C3C12ED-8A53-3B82-B04C-B3D1A25CB683.bcsymbolmap ... 
+2018-08-30 23:26:21 +0000  135616 bytes for ./4C3C12ED-8A53-3B82-B04C-B3D1A25CB683.bcsymbolmap
+2018-08-30 23:26:21 +0000  
+2018-08-30 23:26:21 +0000  2018-08-30 23:26:21 +0000  /usr/bin/ditto exited with 02018-08-30 23:26:21 +0000  
+
+
+2018-08-30 23:26:21 +0000  Processing step: IDEDistributionSymbolsStep
+2018-08-30 23:26:21 +0000  Excluding symbols for SpreadsheetView.framework
+2018-08-30 23:26:21 +0000  Excluding symbols for SwiftSpreadsheet.framework
+2018-08-30 23:26:21 +0000  Processing symbols for libswiftCore.dylib
+2018-08-30 23:26:21 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCore.dylib' '--link-dest' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:21 +0000  building file list ... 
+2018-08-30 23:26:21 +0000   0 files...2018-08-30 23:26:21 +0000  1 file to consider
+2018-08-30 23:26:21 +0000  
+sent 89 bytes  received 20 bytes  218.00 bytes/sec
+2018-08-30 23:26:21 +0000  total size is 63.61M  speedup is 611966.39
+2018-08-30 23:26:21 +0000  
+2018-08-30 23:26:21 +0000  2018-08-30 23:26:21 +0000  /usr/bin/rsync exited with 0
+
+2018-08-30 23:26:21 +0000  
+2018-08-30 23:26:21 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:21 +0000  building file list ... 
+2018-08-30 23:26:21 +0000   0 files...2018-08-30 23:26:21 +0000  19 files to consider
+2018-08-30 23:26:21 +0000  ./
+2018-08-30 23:26:21 +0000  Dosimetry Calculator.app.dSYM/
+Dosimetry Calculator.app.dSYM/Contents/
+Dosimetry Calculator.app.dSYM/Contents/Resources/
+2018-08-30 23:26:21 +0000  Dosimetry Calculator.app.dSYM/Contents/Resources/DWARF/
+SpreadsheetView.framework.dSYM/
+SpreadsheetView.framework.dSYM/Contents/
+SpreadsheetView.framework.dSYM/Contents/Resources/
+SpreadsheetView.framework.dSYM/Contents/Resources/DWARF/
+SwiftSpreadsheet.framework.dSYM/
+SwiftSpreadsheet.framework.dSYM/Contents/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:21 +0000  
+2018-08-30 23:26:21 +0000  sent 722 bytes  received 98 bytes  1.60K bytes/sec
+total size is 4.43M  speedup is 5663.26
+2018-08-30 23:26:21 +0000  
+2018-08-30 23:26:21 +0000  2018-08-30 23:26:21 +0000  /usr/bin/rsync exited with 0
+
+2018-08-30 23:26:21 +0000  
+2018-08-30 23:26:21 +0000  
+2018-08-30 23:26:21 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Symbols' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCore.dylib'
+2018-08-30 23:26:22 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCore.dylib [armv7, 0.396451 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCore.dylib [armv7s, 0.396451 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCore.dylib [arm64, 0.396451 seconds]:
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+
+2018-08-30 23:26:22 +0000  Processing symbols for libswiftCoreFoundation.dylib
+2018-08-30 23:26:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreFoundation.dylib' '--link-dest' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:22 +0000  building file list ... 
+2018-08-30 23:26:22 +0000   0 files...2018-08-30 23:26:22 +0000  1 file to consider
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  sent 99 bytes  received 20 bytes  238.00 bytes/sec
+total size is 292.50K  speedup is 2516.97
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  /usr/bin/rsync exited with 02018-08-30 23:26:22 +0000  
+
+
+2018-08-30 23:26:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:22 +0000  building file list ... 
+2018-08-30 23:26:22 +0000   0 files...2018-08-30 23:26:22 +0000  19 files to consider
+2018-08-30 23:26:22 +0000  ./
+2018-08-30 23:26:22 +0000  Dosimetry Calculator.app.dSYM/
+Dosimetry Calculator.app.dSYM/Contents/
+Dosimetry Calculator.app.dSYM/Contents/Resources/
+Dosimetry Calculator.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:22 +0000  SpreadsheetView.framework.dSYM/
+SpreadsheetView.framework.dSYM/Contents/
+SpreadsheetView.framework.dSYM/Contents/Resources/
+SpreadsheetView.framework.dSYM/Contents/Resources/DWARF/
+SwiftSpreadsheet.framework.dSYM/
+SwiftSpreadsheet.framework.dSYM/Contents/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  sent 758 bytes  received 134 bytes  1.74K bytes/sec
+total size is 4.43M  speedup is 5206.13
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  /usr/bin/rsync exited with 02018-08-30 23:26:22 +0000  
+
+
+2018-08-30 23:26:22 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Symbols' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCoreFoundation.dylib'
+2018-08-30 23:26:22 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCoreFoundation.dylib [armv7, 0.002420 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCoreFoundation.dylib [armv7s, 0.002420 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCoreFoundation.dylib [arm64, 0.002420 seconds]:
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  
+
+2018-08-30 23:26:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  
+
+2018-08-30 23:26:22 +0000  Processing symbols for libswiftCoreGraphics.dylib
+2018-08-30 23:26:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreGraphics.dylib' '--link-dest' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:22 +0000  building file list ... 
+2018-08-30 23:26:22 +0000   0 files...2018-08-30 23:26:22 +0000  1 file to consider
+2018-08-30 23:26:22 +0000  
+sent 97 bytes  received 20 bytes  234.00 bytes/sec
+2018-08-30 23:26:22 +0000  total size is 1.56M  speedup is 13996.31
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  /usr/bin/rsync exited with 0
+
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  
+
+2018-08-30 23:26:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:22 +0000  building file list ... 
+2018-08-30 23:26:22 +0000   0 files...2018-08-30 23:26:22 +0000  19 files to consider
+2018-08-30 23:26:22 +0000  ./
+2018-08-30 23:26:22 +0000  Dosimetry Calculator.app.dSYM/
+Dosimetry Calculator.app.dSYM/Contents/
+Dosimetry Calculator.app.dSYM/Contents/Resources/
+Dosimetry Calculator.app.dSYM/Contents/Resources/DWARF/
+SpreadsheetView.framework.dSYM/
+SpreadsheetView.framework.dSYM/Contents/
+2018-08-30 23:26:22 +0000  SpreadsheetView.framework.dSYM/Contents/Resources/
+SpreadsheetView.framework.dSYM/Contents/Resources/DWARF/
+SwiftSpreadsheet.framework.dSYM/
+SwiftSpreadsheet.framework.dSYM/Contents/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  sent 758 bytes  received 134 bytes  1.74K bytes/sec
+total size is 4.43M  speedup is 5206.13
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  /usr/bin/rsync exited with 0
+
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  
+
+2018-08-30 23:26:22 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Symbols' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCoreGraphics.dylib'
+2018-08-30 23:26:22 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCoreGraphics.dylib [armv7, 0.010267 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCoreGraphics.dylib [armv7s, 0.010267 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCoreGraphics.dylib [arm64, 0.010267 seconds]:
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  
+
+2018-08-30 23:26:22 +0000  Processing symbols for libswiftCoreImage.dylib
+2018-08-30 23:26:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreImage.dylib' '--link-dest' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:22 +0000  building file list ... 
+2018-08-30 23:26:22 +0000   0 files...2018-08-30 23:26:22 +0000  1 file to consider
+2018-08-30 23:26:22 +0000  
+sent 94 bytes  received 20 bytes  228.00 bytes/sec
+total size is 341.22K  speedup is 3064.98
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  
+
+2018-08-30 23:26:22 +0000  /usr/bin/rsync exited with 02018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  
+
+
+2018-08-30 23:26:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:22 +0000  building file list ... 
+2018-08-30 23:26:22 +0000   0 files...2018-08-30 23:26:22 +0000  19 files to consider
+2018-08-30 23:26:22 +0000  ./
+2018-08-30 23:26:22 +0000  Dosimetry Calculator.app.dSYM/
+Dosimetry Calculator.app.dSYM/Contents/
+Dosimetry Calculator.app.dSYM/Contents/Resources/
+Dosimetry Calculator.app.dSYM/Contents/Resources/DWARF/
+SpreadsheetView.framework.dSYM/
+2018-08-30 23:26:22 +0000  SpreadsheetView.framework.dSYM/Contents/
+SpreadsheetView.framework.dSYM/Contents/Resources/
+SpreadsheetView.framework.dSYM/Contents/Resources/DWARF/
+SwiftSpreadsheet.framework.dSYM/
+SwiftSpreadsheet.framework.dSYM/Contents/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  sent 758 bytes  received 134 bytes  1.74K bytes/sec
+total size is 4.43M  speedup is 5206.13
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  /usr/bin/rsync exited with 02018-08-30 23:26:22 +0000  
+
+
+2018-08-30 23:26:22 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Symbols' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCoreImage.dylib'
+2018-08-30 23:26:22 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCoreImage.dylib [armv7, 0.002263 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCoreImage.dylib [armv7s, 0.002263 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftCoreImage.dylib [arm64, 0.002263 seconds]:
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  
+
+
+2018-08-30 23:26:22 +0000  Processing symbols for libswiftDarwin.dylib
+2018-08-30 23:26:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftDarwin.dylib' '--link-dest' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:22 +0000  building file list ... 
+2018-08-30 23:26:22 +0000   0 files...2018-08-30 23:26:22 +0000  1 file to consider
+2018-08-30 23:26:22 +0000  
+sent 91 bytes  received 20 bytes  222.00 bytes/sec
+2018-08-30 23:26:22 +0000  total size is 827.88K  speedup is 7637.33
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  /usr/bin/rsync exited with 02018-08-30 23:26:22 +0000  
+
+
+2018-08-30 23:26:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:22 +0000  building file list ... 
+2018-08-30 23:26:22 +0000   0 files...2018-08-30 23:26:22 +0000  19 files to consider
+2018-08-30 23:26:22 +0000  ./
+2018-08-30 23:26:22 +0000  Dosimetry Calculator.app.dSYM/
+Dosimetry Calculator.app.dSYM/Contents/
+Dosimetry Calculator.app.dSYM/Contents/Resources/
+Dosimetry Calculator.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:22 +0000  SpreadsheetView.framework.dSYM/
+SpreadsheetView.framework.dSYM/Contents/
+SpreadsheetView.framework.dSYM/Contents/Resources/
+SpreadsheetView.framework.dSYM/Contents/Resources/DWARF/
+SwiftSpreadsheet.framework.dSYM/
+SwiftSpreadsheet.framework.dSYM/Contents/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:22 +0000  
+sent 758 bytes  received 134 bytes  1.74K bytes/sec
+total size is 4.43M  speedup is 5206.13
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  /usr/bin/rsync exited with 0
+
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Symbols' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftDarwin.dylib'
+2018-08-30 23:26:22 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftDarwin.dylib [armv7, 0.005652 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftDarwin.dylib [armv7s, 0.005652 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftDarwin.dylib [arm64, 0.005652 seconds]:
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  
+
+2018-08-30 23:26:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  
+
+2018-08-30 23:26:22 +0000  Processing symbols for libswiftDispatch.dylib
+2018-08-30 23:26:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftDispatch.dylib' '--link-dest' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:22 +0000  building file list ... 
+2018-08-30 23:26:22 +0000   0 files...2018-08-30 23:26:22 +0000  1 file to consider
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  sent 93 bytes  received 20 bytes  226.00 bytes/sec
+total size is 2.64M  speedup is 24460.88
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  /usr/bin/rsync exited with 0
+
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  
+
+2018-08-30 23:26:22 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:22 +0000  building file list ... 
+2018-08-30 23:26:22 +0000   0 files...2018-08-30 23:26:22 +0000  19 files to consider
+2018-08-30 23:26:22 +0000  ./
+2018-08-30 23:26:22 +0000  Dosimetry Calculator.app.dSYM/
+Dosimetry Calculator.app.dSYM/Contents/
+Dosimetry Calculator.app.dSYM/Contents/Resources/
+Dosimetry Calculator.app.dSYM/Contents/Resources/DWARF/
+SpreadsheetView.framework.dSYM/
+2018-08-30 23:26:22 +0000  SpreadsheetView.framework.dSYM/Contents/
+SpreadsheetView.framework.dSYM/Contents/Resources/
+SpreadsheetView.framework.dSYM/Contents/Resources/DWARF/
+SwiftSpreadsheet.framework.dSYM/
+SwiftSpreadsheet.framework.dSYM/Contents/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:22 +0000  
+sent 758 bytes  received 134 bytes  1.74K bytes/sec
+2018-08-30 23:26:22 +0000  total size is 4.43M  speedup is 5206.13
+2018-08-30 23:26:22 +0000  
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  /usr/bin/rsync exited with 0
+2018-08-30 23:26:22 +0000  
+
+2018-08-30 23:26:22 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Symbols' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftDispatch.dylib'
+2018-08-30 23:26:22 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftDispatch.dylib [armv7, 0.021721 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftDispatch.dylib [armv7s, 0.021721 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftDispatch.dylib [arm64, 0.021721 seconds]:
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  
+
+2018-08-30 23:26:22 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-08-30 23:26:22 +0000  2018-08-30 23:26:22 +0000  
+
+2018-08-30 23:26:23 +0000  Processing symbols for libswiftFoundation.dylib
+2018-08-30 23:26:23 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftFoundation.dylib' '--link-dest' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:23 +0000  building file list ... 
+2018-08-30 23:26:23 +0000   0 files...2018-08-30 23:26:23 +0000  1 file to consider
+2018-08-30 23:26:23 +0000  
+sent 95 bytes  received 20 bytes  230.00 bytes/sec
+total size is 28.81M  speedup is 262669.77
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  /usr/bin/rsync exited with 02018-08-30 23:26:23 +0000  
+
+
+2018-08-30 23:26:23 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:23 +0000  building file list ... 
+2018-08-30 23:26:23 +0000   0 files...2018-08-30 23:26:23 +0000  19 files to consider
+2018-08-30 23:26:23 +0000  ./
+2018-08-30 23:26:23 +0000  Dosimetry Calculator.app.dSYM/
+Dosimetry Calculator.app.dSYM/Contents/
+Dosimetry Calculator.app.dSYM/Contents/Resources/
+Dosimetry Calculator.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:23 +0000  SpreadsheetView.framework.dSYM/
+SpreadsheetView.framework.dSYM/Contents/
+SpreadsheetView.framework.dSYM/Contents/Resources/
+SpreadsheetView.framework.dSYM/Contents/Resources/DWARF/
+SwiftSpreadsheet.framework.dSYM/
+SwiftSpreadsheet.framework.dSYM/Contents/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:23 +0000  
+sent 758 bytes  received 134 bytes  1.74K bytes/sec
+2018-08-30 23:26:23 +0000  total size is 4.43M  speedup is 5206.13
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  /usr/bin/rsync exited with 02018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  
+
+2018-08-30 23:26:23 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Symbols' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftFoundation.dylib'
+2018-08-30 23:26:23 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftFoundation.dylib [armv7, 0.148833 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftFoundation.dylib [armv7s, 0.148833 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftFoundation.dylib [arm64, 0.148833 seconds]:
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  
+
+2018-08-30 23:26:23 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  Processing symbols for libswiftMetal.dylib
+2018-08-30 23:26:23 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftMetal.dylib' '--link-dest' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:23 +0000  building file list ... 
+2018-08-30 23:26:23 +0000  /usr/bin/rsync exited with 02018-08-30 23:26:23 +0000  
+
+2018-08-30 23:26:23 +0000   0 files...1 file to consider
+
+sent 90 bytes  received 20 bytes  220.00 bytes/sec
+total size is 447.17K  speedup is 4162.76
+2018-08-30 23:26:23 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:23 +0000  building file list ... 
+2018-08-30 23:26:23 +0000   0 files...2018-08-30 23:26:23 +0000  19 files to consider
+2018-08-30 23:26:23 +0000  ./
+2018-08-30 23:26:23 +0000  Dosimetry Calculator.app.dSYM/
+Dosimetry Calculator.app.dSYM/Contents/
+Dosimetry Calculator.app.dSYM/Contents/Resources/
+2018-08-30 23:26:23 +0000  Dosimetry Calculator.app.dSYM/Contents/Resources/DWARF/
+SpreadsheetView.framework.dSYM/
+SpreadsheetView.framework.dSYM/Contents/
+SpreadsheetView.framework.dSYM/Contents/Resources/
+SpreadsheetView.framework.dSYM/Contents/Resources/DWARF/
+SwiftSpreadsheet.framework.dSYM/
+SwiftSpreadsheet.framework.dSYM/Contents/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:23 +0000  
+sent 758 bytes  received 134 bytes  1.74K bytes/sec
+total size is 4.43M  speedup is 5206.13
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  
+
+2018-08-30 23:26:23 +0000  /usr/bin/rsync exited with 02018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  
+
+2018-08-30 23:26:23 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Symbols' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftMetal.dylib'
+2018-08-30 23:26:23 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftMetal.dylib [armv7, 0.003218 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftMetal.dylib [armv7s, 0.003218 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftMetal.dylib [arm64, 0.003218 seconds]:
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  
+
+2018-08-30 23:26:23 +0000  Processing symbols for libswiftObjectiveC.dylib
+2018-08-30 23:26:23 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftObjectiveC.dylib' '--link-dest' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:23 +0000  building file list ... 
+2018-08-30 23:26:23 +0000   0 files...2018-08-30 23:26:23 +0000  1 file to consider
+2018-08-30 23:26:23 +0000  
+sent 95 bytes  received 20 bytes  230.00 bytes/sec
+total size is 581.91K  speedup is 5181.50
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  /usr/bin/rsync exited with 0
+
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  
+
+2018-08-30 23:26:23 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:23 +0000  building file list ... 
+2018-08-30 23:26:23 +0000   0 files...2018-08-30 23:26:23 +0000  19 files to consider
+2018-08-30 23:26:23 +0000  ./
+2018-08-30 23:26:23 +0000  Dosimetry Calculator.app.dSYM/
+Dosimetry Calculator.app.dSYM/Contents/
+Dosimetry Calculator.app.dSYM/Contents/Resources/
+Dosimetry Calculator.app.dSYM/Contents/Resources/DWARF/
+SpreadsheetView.framework.dSYM/
+SpreadsheetView.framework.dSYM/Contents/
+SpreadsheetView.framework.dSYM/Contents/Resources/
+2018-08-30 23:26:23 +0000  SpreadsheetView.framework.dSYM/Contents/Resources/DWARF/
+SwiftSpreadsheet.framework.dSYM/
+SwiftSpreadsheet.framework.dSYM/Contents/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  sent 758 bytes  received 134 bytes  1.74K bytes/sec
+total size is 4.43M  speedup is 5206.13
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  /usr/bin/rsync exited with 02018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  
+
+
+2018-08-30 23:26:23 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Symbols' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftObjectiveC.dylib'
+2018-08-30 23:26:23 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftObjectiveC.dylib [armv7, 0.004894 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftObjectiveC.dylib [armv7s, 0.004894 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftObjectiveC.dylib [arm64, 0.004894 seconds]:
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-08-30 23:26:23 +0000  
+
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  Processing symbols for libswiftQuartzCore.dylib
+2018-08-30 23:26:23 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftQuartzCore.dylib' '--link-dest' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:23 +0000  building file list ... 
+2018-08-30 23:26:23 +0000   0 files...2018-08-30 23:26:23 +0000  1 file to consider
+2018-08-30 23:26:23 +0000  
+sent 95 bytes  received 20 bytes  230.00 bytes/sec
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  total size is 344.14K  speedup is 3064.35
+
+2018-08-30 23:26:23 +0000  /usr/bin/rsync exited with 0
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  
+
+2018-08-30 23:26:23 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:23 +0000  building file list ... 
+2018-08-30 23:26:23 +0000   0 files...2018-08-30 23:26:23 +0000  19 files to consider
+2018-08-30 23:26:23 +0000  ./
+2018-08-30 23:26:23 +0000  Dosimetry Calculator.app.dSYM/
+Dosimetry Calculator.app.dSYM/Contents/
+Dosimetry Calculator.app.dSYM/Contents/Resources/
+Dosimetry Calculator.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:23 +0000  SpreadsheetView.framework.dSYM/
+SpreadsheetView.framework.dSYM/Contents/
+SpreadsheetView.framework.dSYM/Contents/Resources/
+SpreadsheetView.framework.dSYM/Contents/Resources/DWARF/
+SwiftSpreadsheet.framework.dSYM/
+SwiftSpreadsheet.framework.dSYM/Contents/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:23 +0000  
+sent 758 bytes  received 134 bytes  1.74K bytes/sec
+total size is 4.43M  speedup is 5206.13
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  
+
+2018-08-30 23:26:23 +0000  /usr/bin/rsync exited with 02018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  
+
+
+2018-08-30 23:26:23 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Symbols' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftQuartzCore.dylib'
+2018-08-30 23:26:23 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftQuartzCore.dylib [armv7, 0.002907 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftQuartzCore.dylib [armv7s, 0.002907 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftQuartzCore.dylib [arm64, 0.002907 seconds]:
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  
+
+2018-08-30 23:26:23 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-08-30 23:26:23 +0000  
+
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  Processing symbols for libswiftUIKit.dylib
+2018-08-30 23:26:23 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftUIKit.dylib' '--link-dest' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:23 +0000  building file list ... 
+2018-08-30 23:26:23 +0000   0 files...2018-08-30 23:26:23 +0000  1 file to consider
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  sent 90 bytes  received 20 bytes  220.00 bytes/sec
+total size is 1.03M  speedup is 9861.82
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  /usr/bin/rsync exited with 02018-08-30 23:26:23 +0000  
+
+
+2018-08-30 23:26:23 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:23 +0000  building file list ... 
+2018-08-30 23:26:23 +0000   0 files...2018-08-30 23:26:23 +0000  19 files to consider
+2018-08-30 23:26:23 +0000  ./
+2018-08-30 23:26:23 +0000  Dosimetry Calculator.app.dSYM/
+Dosimetry Calculator.app.dSYM/Contents/
+Dosimetry Calculator.app.dSYM/Contents/Resources/
+Dosimetry Calculator.app.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:23 +0000  SpreadsheetView.framework.dSYM/
+SpreadsheetView.framework.dSYM/Contents/
+SpreadsheetView.framework.dSYM/Contents/Resources/
+SpreadsheetView.framework.dSYM/Contents/Resources/DWARF/
+SwiftSpreadsheet.framework.dSYM/
+SwiftSpreadsheet.framework.dSYM/Contents/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:23 +0000  
+sent 758 bytes  received 134 bytes  1.74K bytes/sec
+2018-08-30 23:26:23 +0000  total size is 4.43M  speedup is 5206.13
+2018-08-30 23:26:23 +0000  
+2018-08-30 23:26:23 +0000  2018-08-30 23:26:23 +0000  /usr/bin/rsync exited with 02018-08-30 23:26:23 +0000  
+
+
+2018-08-30 23:26:23 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Symbols' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftUIKit.dylib'
+2018-08-30 23:26:24 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftUIKit.dylib [armv7, 0.009006 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftUIKit.dylib [armv7s, 0.009006 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftUIKit.dylib [arm64, 0.009006 seconds]:
+2018-08-30 23:26:24 +0000  2018-08-30 23:26:24 +0000  
+
+2018-08-30 23:26:24 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-08-30 23:26:24 +0000  2018-08-30 23:26:24 +0000  
+
+2018-08-30 23:26:24 +0000  Processing symbols for libswiftos.dylib
+2018-08-30 23:26:24 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftos.dylib' '--link-dest' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:24 +0000  building file list ... 
+2018-08-30 23:26:24 +0000   0 files...2018-08-30 23:26:24 +0000  1 file to consider
+2018-08-30 23:26:24 +0000  
+2018-08-30 23:26:24 +0000  sent 87 bytes  received 20 bytes  214.00 bytes/sec
+total size is 494.30K  speedup is 4730.47
+2018-08-30 23:26:24 +0000  
+2018-08-30 23:26:24 +0000  2018-08-30 23:26:24 +0000  /usr/bin/rsync exited with 0
+
+2018-08-30 23:26:24 +0000  
+2018-08-30 23:26:24 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/dSYMs/' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg'
+2018-08-30 23:26:24 +0000  building file list ... 
+2018-08-30 23:26:24 +0000   0 files...2018-08-30 23:26:24 +0000  19 files to consider
+2018-08-30 23:26:24 +0000  ./
+2018-08-30 23:26:24 +0000  Dosimetry Calculator.app.dSYM/
+Dosimetry Calculator.app.dSYM/Contents/
+Dosimetry Calculator.app.dSYM/Contents/Resources/
+Dosimetry Calculator.app.dSYM/Contents/Resources/DWARF/
+SpreadsheetView.framework.dSYM/
+SpreadsheetView.framework.dSYM/Contents/
+SpreadsheetView.framework.dSYM/Contents/Resources/
+SpreadsheetView.framework.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:24 +0000  SwiftSpreadsheet.framework.dSYM/
+SwiftSpreadsheet.framework.dSYM/Contents/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/
+SwiftSpreadsheet.framework.dSYM/Contents/Resources/DWARF/
+2018-08-30 23:26:24 +0000  
+sent 758 bytes  received 134 bytes  1.74K bytes/sec
+total size is 4.43M  speedup is 5206.13
+2018-08-30 23:26:24 +0000  2018-08-30 23:26:24 +0000  
+
+2018-08-30 23:26:24 +0000  /usr/bin/rsync exited with 0
+2018-08-30 23:26:24 +0000  2018-08-30 23:26:24 +0000  
+
+2018-08-30 23:26:24 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Symbols' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftos.dylib'
+2018-08-30 23:26:24 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftos.dylib [armv7, 0.002553 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftos.dylib [armv7s, 0.002553 seconds]:
+/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/libswiftos.dylib [arm64, 0.002553 seconds]:
+2018-08-30 23:26:24 +0000  2018-08-30 23:26:24 +0000  
+
+2018-08-30 23:26:24 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-08-30 23:26:24 +0000  2018-08-30 23:26:24 +0000  
+
+2018-08-30 23:26:24 +0000  Excluding symbols for Dosimetry Calculator.app
+2018-08-30 23:26:24 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-08-30 23:26:24 +0000  Running /usr/bin/ditto '-V' '/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/SwiftSupport' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/SwiftSupport'
+2018-08-30 23:26:24 +0000  >>> Copying /Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/SwiftSupport 
+2018-08-30 23:26:24 +0000  copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2018-08-30 23:26:24 +0000  351635 bytes for ./iphoneos/libswiftCoreImage.dylib
+copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2018-08-30 23:26:24 +0000  737148 bytes for ./iphoneos/libswiftObjectiveC.dylib
+2018-08-30 23:26:24 +0000  copying file ./iphoneos/libswiftCore.dylib ... 
+2018-08-30 23:26:24 +0000  96746864 bytes for ./iphoneos/libswiftCore.dylib
+copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2018-08-30 23:26:24 +0000  2199628 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+copying file ./iphoneos/libswiftUIKit.dylib ... 
+2018-08-30 23:26:24 +0000  1410736 bytes for ./iphoneos/libswiftUIKit.dylib
+copying file ./iphoneos/libswiftMetal.dylib ... 
+2018-08-30 23:26:24 +0000  558460 bytes for ./iphoneos/libswiftMetal.dylib
+2018-08-30 23:26:24 +0000  copying file ./iphoneos/libswiftDispatch.dylib ... 
+2018-08-30 23:26:24 +0000  3698083 bytes for ./iphoneos/libswiftDispatch.dylib
+copying file ./iphoneos/libswiftos.dylib ... 
+2018-08-30 23:26:24 +0000  656418 bytes for ./iphoneos/libswiftos.dylib
+copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2018-08-30 23:26:24 +0000  288241 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+2018-08-30 23:26:24 +0000  copying file ./iphoneos/libswiftDarwin.dylib ... 
+2018-08-30 23:26:24 +0000  1091343 bytes for ./iphoneos/libswiftDarwin.dylib
+2018-08-30 23:26:24 +0000  copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2018-08-30 23:26:24 +0000  369807 bytes for ./iphoneos/libswiftQuartzCore.dylib
+copying file ./iphoneos/libswiftFoundation.dylib ... 
+2018-08-30 23:26:24 +0000  43134853 bytes for ./iphoneos/libswiftFoundation.dylib
+2018-08-30 23:26:24 +0000  2018-08-30 23:26:24 +0000  
+
+2018-08-30 23:26:24 +0000  2018-08-30 23:26:24 +0000  /usr/bin/ditto exited with 0
+
+2018-08-30 23:26:24 +0000  2018-08-30 23:26:24 +0000  
+
+2018-08-30 23:26:24 +0000  Processing step: IDEDistributionAppThinningStep
+2018-08-30 23:26:24 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-08-30 23:26:24 +0000  Processing step: IDEDistributionODRStep
+2018-08-30 23:26:24 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8a5aeaaf0 'org.cocoapods.SpreadsheetView' '<DVTFilePath:0x7fc8a60973f0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/SpreadsheetView.framework'>'>
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8a579e680 'org.cocoapods.SwiftSpreadsheet' '<DVTFilePath:0x7fc8a5e7bd70:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/SwiftSpreadsheet.framework'>'>
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8a5e7fa10 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc8a5e56cb0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCore.dylib'>'>
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8a5aece50 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc8a5e78e70:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8a51f2e70 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc8a6319ad0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8a607fb00 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc8a48bcec0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8a607e870 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc8a5e71f40:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8a60aaf10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc8a5c25b30:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc89b59f740 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc8a5839320:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8a4bd5f90 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc8a5e68be0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftMetal.dylib'>'>
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8a5e77440 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc8a5183560:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8a5fc3b90 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc8a5e91640:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc89b689f60 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fc8a576be30:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-08-30 23:26:24 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8a5e40210 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc8a5e58c20:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftos.dylib'>'>
+2018-08-30 23:26:24 +0000  Running /usr/bin/xattr '-crs' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app'
+2018-08-30 23:26:24 +0000  2018-08-30 23:26:24 +0000  
+
+2018-08-30 23:26:24 +0000  /usr/bin/xattr exited with 0
+2018-08-30 23:26:24 +0000  2018-08-30 23:26:24 +0000  
+
+2018-08-30 23:26:24 +0000  Processing step: IDEDistributionCodesignStep
+2018-08-30 23:26:24 +0000  Entitlements for <IDEDistributionItem: 0x7fc8a5aeaaf0 'org.cocoapods.SpreadsheetView' '<DVTFilePath:0x7fc8a60973f0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/SpreadsheetView.framework'>'>: {
+}
+2018-08-30 23:26:24 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8a5aeaaf0 'org.cocoapods.SpreadsheetView' '<DVTFilePath:0x7fc8a60973f0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/SpreadsheetView.framework'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsMFhIMt
+2018-08-30 23:26:24 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsMFhIMt' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/SpreadsheetView.framework'
+2018-08-30 23:26:24 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/SpreadsheetView.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SpreadsheetView]
+2018-08-30 23:26:24 +0000  
+2018-08-30 23:26:24 +0000  
+2018-08-30 23:26:24 +0000  /usr/bin/codesign exited with 0
+2018-08-30 23:26:24 +0000  2018-08-30 23:26:25 +0000  
+
+2018-08-30 23:26:25 +0000  Entitlements for <IDEDistributionItem: 0x7fc8a579e680 'org.cocoapods.SwiftSpreadsheet' '<DVTFilePath:0x7fc8a5e7bd70:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/SwiftSpreadsheet.framework'>'>: {
+}
+2018-08-30 23:26:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8a579e680 'org.cocoapods.SwiftSpreadsheet' '<DVTFilePath:0x7fc8a5e7bd70:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/SwiftSpreadsheet.framework'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsPDeDJQ
+2018-08-30 23:26:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsPDeDJQ' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/SwiftSpreadsheet.framework'
+2018-08-30 23:26:25 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/SwiftSpreadsheet.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SwiftSpreadsheet]
+2018-08-30 23:26:25 +0000  2018-08-30 23:26:25 +0000  
+
+2018-08-30 23:26:25 +0000  /usr/bin/codesign exited with 0
+2018-08-30 23:26:25 +0000  2018-08-30 23:26:25 +0000  
+
+2018-08-30 23:26:25 +0000  Entitlements for <IDEDistributionItem: 0x7fc8a5e7fa10 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc8a5e56cb0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-08-30 23:26:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8a5e7fa10 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc8a5e56cb0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsJHqWG7
+2018-08-30 23:26:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsJHqWG7' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCore.dylib'
+2018-08-30 23:26:25 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-08-30 23:26:26 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-08-30 23:26:26 +0000  2018-08-30 23:26:26 +0000  
+
+2018-08-30 23:26:26 +0000  /usr/bin/codesign exited with 02018-08-30 23:26:26 +0000  
+2018-08-30 23:26:26 +0000  
+
+2018-08-30 23:26:26 +0000  Entitlements for <IDEDistributionItem: 0x7fc8a5aece50 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc8a5e78e70:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-08-30 23:26:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8a5aece50 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc8a5e78e70:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsmedME9
+2018-08-30 23:26:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsmedME9' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-08-30 23:26:26 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-08-30 23:26:26 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-08-30 23:26:26 +0000  2018-08-30 23:26:26 +0000  
+
+2018-08-30 23:26:26 +0000  /usr/bin/codesign exited with 0
+2018-08-30 23:26:26 +0000  2018-08-30 23:26:26 +0000  
+
+2018-08-30 23:26:26 +0000  Entitlements for <IDEDistributionItem: 0x7fc8a51f2e70 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc8a6319ad0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-08-30 23:26:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8a51f2e70 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc8a6319ad0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsedjrIy
+2018-08-30 23:26:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsedjrIy' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-08-30 23:26:26 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-08-30 23:26:26 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-08-30 23:26:26 +0000  2018-08-30 23:26:26 +0000  
+
+2018-08-30 23:26:26 +0000  /usr/bin/codesign exited with 02018-08-30 23:26:26 +0000  
+
+2018-08-30 23:26:26 +0000  
+2018-08-30 23:26:26 +0000  Entitlements for <IDEDistributionItem: 0x7fc8a607fb00 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc8a48bcec0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-08-30 23:26:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8a607fb00 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc8a48bcec0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlements9U38yM
+2018-08-30 23:26:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlements9U38yM' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreImage.dylib'
+2018-08-30 23:26:26 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-08-30 23:26:26 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-08-30 23:26:26 +0000  2018-08-30 23:26:26 +0000  
+
+2018-08-30 23:26:26 +0000  /usr/bin/codesign exited with 0
+2018-08-30 23:26:26 +0000  2018-08-30 23:26:26 +0000  
+
+2018-08-30 23:26:26 +0000  Entitlements for <IDEDistributionItem: 0x7fc8a607e870 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc8a5e71f40:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-08-30 23:26:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8a607e870 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc8a5e71f40:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsd9V2CY
+2018-08-30 23:26:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsd9V2CY' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftDarwin.dylib'
+2018-08-30 23:26:26 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-08-30 23:26:26 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-08-30 23:26:26 +0000  2018-08-30 23:26:26 +0000  
+
+2018-08-30 23:26:26 +0000  /usr/bin/codesign exited with 0
+2018-08-30 23:26:26 +0000  2018-08-30 23:26:26 +0000  
+
+2018-08-30 23:26:26 +0000  Entitlements for <IDEDistributionItem: 0x7fc8a60aaf10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc8a5c25b30:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-08-30 23:26:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8a60aaf10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc8a5c25b30:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlements3JSyLw
+2018-08-30 23:26:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlements3JSyLw' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftDispatch.dylib'
+2018-08-30 23:26:26 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-08-30 23:26:27 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-08-30 23:26:27 +0000  2018-08-30 23:26:27 +0000  
+
+2018-08-30 23:26:27 +0000  /usr/bin/codesign exited with 02018-08-30 23:26:27 +0000  
+2018-08-30 23:26:27 +0000  
+
+2018-08-30 23:26:27 +0000  Entitlements for <IDEDistributionItem: 0x7fc89b59f740 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc8a5839320:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-08-30 23:26:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc89b59f740 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc8a5839320:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsk0EYFC
+2018-08-30 23:26:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsk0EYFC' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftFoundation.dylib'
+2018-08-30 23:26:27 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-08-30 23:26:27 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-08-30 23:26:27 +0000  2018-08-30 23:26:27 +0000  
+
+2018-08-30 23:26:27 +0000  /usr/bin/codesign exited with 0
+2018-08-30 23:26:27 +0000  2018-08-30 23:26:27 +0000  
+
+2018-08-30 23:26:27 +0000  Entitlements for <IDEDistributionItem: 0x7fc8a4bd5f90 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc8a5e68be0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-08-30 23:26:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8a4bd5f90 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc8a5e68be0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsVgiUMg
+2018-08-30 23:26:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsVgiUMg' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftMetal.dylib'
+2018-08-30 23:26:27 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-08-30 23:26:27 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-08-30 23:26:27 +0000  
+2018-08-30 23:26:27 +0000  2018-08-30 23:26:27 +0000  /usr/bin/codesign exited with 0
+
+2018-08-30 23:26:27 +0000  
+2018-08-30 23:26:27 +0000  Entitlements for <IDEDistributionItem: 0x7fc8a5e77440 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc8a5183560:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-08-30 23:26:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8a5e77440 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc8a5183560:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsGu4SyP
+2018-08-30 23:26:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsGu4SyP' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftObjectiveC.dylib'
+2018-08-30 23:26:27 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-08-30 23:26:28 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-08-30 23:26:28 +0000  
+2018-08-30 23:26:28 +0000  
+2018-08-30 23:26:28 +0000  /usr/bin/codesign exited with 02018-08-30 23:26:28 +0000  
+
+2018-08-30 23:26:28 +0000  
+2018-08-30 23:26:28 +0000  Entitlements for <IDEDistributionItem: 0x7fc8a5fc3b90 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc8a5e91640:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-08-30 23:26:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8a5fc3b90 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc8a5e91640:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsHY7pvp
+2018-08-30 23:26:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsHY7pvp' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftQuartzCore.dylib'
+2018-08-30 23:26:28 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-08-30 23:26:28 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-08-30 23:26:28 +0000  2018-08-30 23:26:28 +0000  
+
+2018-08-30 23:26:28 +0000  /usr/bin/codesign exited with 0
+2018-08-30 23:26:28 +0000  2018-08-30 23:26:28 +0000  
+
+2018-08-30 23:26:28 +0000  Entitlements for <IDEDistributionItem: 0x7fc89b689f60 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fc8a576be30:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-08-30 23:26:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc89b689f60 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fc8a576be30:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsTPJbtO
+2018-08-30 23:26:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsTPJbtO' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftUIKit.dylib'
+2018-08-30 23:26:28 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2018-08-30 23:26:28 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-08-30 23:26:28 +0000  2018-08-30 23:26:28 +0000  
+
+2018-08-30 23:26:28 +0000  /usr/bin/codesign exited with 0
+2018-08-30 23:26:28 +0000  2018-08-30 23:26:28 +0000  
+
+2018-08-30 23:26:28 +0000  Entitlements for <IDEDistributionItem: 0x7fc8a5e40210 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc8a5e58c20:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-08-30 23:26:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8a5e40210 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc8a5e58c20:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsLAd8G2
+2018-08-30 23:26:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementsLAd8G2' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftos.dylib'
+2018-08-30 23:26:28 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftos.dylib: replacing existing signature
+2018-08-30 23:26:28 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-08-30 23:26:28 +0000  2018-08-30 23:26:28 +0000  
+
+2018-08-30 23:26:28 +0000  /usr/bin/codesign exited with 02018-08-30 23:26:28 +0000  
+
+2018-08-30 23:26:28 +0000  
+2018-08-30 23:26:28 +0000  Entitlements for <IDEDistributionItem: 0x7fc8a60b0700 'Medical.Dosimetry-CalculatorDistro' '<DVTFilePath:0x7fc8a5f05ec0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app'>'>: {
+    "application-identifier" = "U52Z3R95LS.Medical.Dosimetry-CalculatorDistro";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = U52Z3R95LS;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "U52Z3R95LS.Medical.Dosimetry-CalculatorDistro"
+    );
+}
+2018-08-30 23:26:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8a60b0700 'Medical.Dosimetry-CalculatorDistro' '<DVTFilePath:0x7fc8a5f05ec0:'/Users/Miro/Library/Developer/Xcode/Archives/2018-08-07/Dosimetry Calculator 8-7-18, 10.31 PM.xcarchive/Products/Applications/Dosimetry Calculator.app'>'> to: /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementswwyI8R
+2018-08-30 23:26:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '819647B4227D2A178A801C81DE1FB528A422C7F7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/entitlementswwyI8R' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app'
+2018-08-30 23:26:29 +0000  /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root/Payload/Dosimetry Calculator.app: signed app bundle with Mach-O thin (arm64) [Medical.Dosimetry-CalculatorDistro]
+2018-08-30 23:26:29 +0000  2018-08-30 23:26:29 +0000  
+
+2018-08-30 23:26:29 +0000  /usr/bin/codesign exited with 02018-08-30 23:26:29 +0000  
+
+2018-08-30 23:26:29 +0000  
+2018-08-30 23:26:29 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-30 23:26:29 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-08-30 23:26:29 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Symbols' '--link-dest' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root'
+2018-08-30 23:26:29 +0000  building file list ... 
+2018-08-30 23:26:29 +0000   0 files...2018-08-30 23:26:29 +0000  37 files to consider
+2018-08-30 23:26:29 +0000  Symbols/
+2018-08-30 23:26:29 +0000  
+2018-08-30 23:26:29 +0000  sent 2.00K bytes  received 26 bytes  4.04K bytes/sec
+total size is 15.28M  speedup is 7738.24
+2018-08-30 23:26:29 +0000  
+2018-08-30 23:26:29 +0000  2018-08-30 23:26:29 +0000  /usr/bin/rsync exited with 0
+
+2018-08-30 23:26:29 +0000  2018-08-30 23:26:29 +0000  
+
+2018-08-30 23:26:29 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root' '/var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Packages/Dosimetry Calculator.ipa'
+2018-08-30 23:26:29 +0000  >>> Copying /var/folders/zm/lv349rj54yl1pscstl8n4n780000gn/T/XcodeDistPipeline.Ekg/Root 
+2018-08-30 23:26:29 +0000  copying file ./BCSymbolMaps/2DC74268-87B3-31BA-8BBD-AE243F8C471A.bcsymbolmap ... 
+2018-08-30 23:26:29 +0000  40932 bytes for ./BCSymbolMaps/2DC74268-87B3-31BA-8BBD-AE243F8C471A.bcsymbolmap
+copying file ./BCSymbolMaps/67B3F5C1-57E0-38CE-8CC8-019578FC2D67.bcsymbolmap ... 
+2018-08-30 23:26:29 +0000  223514 bytes for ./BCSymbolMaps/67B3F5C1-57E0-38CE-8CC8-019578FC2D67.bcsymbolmap
+copying file ./BCSymbolMaps/4C3C12ED-8A53-3B82-B04C-B3D1A25CB683.bcsymbolmap ... 
+2018-08-30 23:26:29 +0000  135616 bytes for ./BCSymbolMaps/4C3C12ED-8A53-3B82-B04C-B3D1A25CB683.bcsymbolmap
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/18MVscp.csv ... 
+2018-08-30 23:26:29 +0000  871 bytes for ./Payload/Dosimetry Calculator.app/18MVscp.csv
+copying file ./Payload/Dosimetry Calculator.app/_CodeSignature/CodeResources ... 
+2018-08-30 23:26:29 +0000  21501 bytes for ./Payload/Dosimetry Calculator.app/_CodeSignature/CodeResources
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/SpreadsheetTopRightDecorationView.nib ... 
+2018-08-30 23:26:29 +0000  4157 bytes for ./Payload/Dosimetry Calculator.app/SpreadsheetTopRightDecorationView.nib
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/SpreadsheetTopColumnView.nib ... 
+2018-08-30 23:26:29 +0000  3895 bytes for ./Payload/Dosimetry Calculator.app/SpreadsheetTopColumnView.nib
+copying file ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_6 MV_Outputs.csv ... 
+2018-08-30 23:26:29 +0000  965 bytes for ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_6 MV_Outputs.csv
+copying file ./Payload/Dosimetry Calculator.app/NSC ClinaciX #3358_10X_NONE_PDD_Table.csv ... 
+2018-08-30 23:26:29 +0000  2579 bytes for ./Payload/Dosimetry Calculator.app/NSC ClinaciX #3358_10X_NONE_PDD_Table.csv
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv ... 
+2018-08-30 23:26:29 +0000  1051 bytes for ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_18 MV_NONE_4x4_OAR_Table.csv
+copying file ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_18 MV_Outputs.csv ... 
+2018-08-30 23:26:29 +0000  967 bytes for ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_18 MV_Outputs.csv
+copying file ./Payload/Dosimetry Calculator.app/AppIcon-160x60@2x.png ... 
+2018-08-30 23:26:29 +0000  9988 bytes for ./Payload/Dosimetry Calculator.app/AppIcon-160x60@2x.png
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/SpreadsheetRightRowView.nib ... 
+2018-08-30 23:26:29 +0000  3691 bytes for ./Payload/Dosimetry Calculator.app/SpreadsheetRightRowView.nib
+copying file ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_6 MV_NONE_TPR_Table.csv ... 
+2018-08-30 23:26:29 +0000  2538 bytes for ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_6 MV_NONE_TPR_Table.csv
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/SpreadsheetBottomRightDecorationView.nib ... 
+2018-08-30 23:26:29 +0000  1986 bytes for ./Payload/Dosimetry Calculator.app/SpreadsheetBottomRightDecorationView.nib
+copying file ./Payload/Dosimetry Calculator.app/SwiftCSV/Description.swift ... 
+2018-08-30 23:26:29 +0000  472 bytes for ./Payload/Dosimetry Calculator.app/SwiftCSV/Description.swift
+copying file ./Payload/Dosimetry Calculator.app/SwiftCSV/CSV.swift ... 
+2018-08-30 23:26:29 +0000  2666 bytes for ./Payload/Dosimetry Calculator.app/SwiftCSV/CSV.swift
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/SwiftCSV/String+Lines.swift ... 
+454 bytes for ./Payload/Dosimetry Calculator.app/SwiftCSV/String+Lines.swift
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/SwiftCSV/ParserHelpers.swift ... 
+2018-08-30 23:26:29 +0000  1752 bytes for ./Payload/Dosimetry Calculator.app/SwiftCSV/ParserHelpers.swift
+copying file ./Payload/Dosimetry Calculator.app/SwiftCSV/Parser.swift ... 
+2018-08-30 23:26:29 +0000  4321 bytes for ./Payload/Dosimetry Calculator.app/SwiftCSV/Parser.swift
+copying file ./Payload/Dosimetry Calculator.app/6MVscp.csv ... 
+2018-08-30 23:26:29 +0000  871 bytes for ./Payload/Dosimetry Calculator.app/6MVscp.csv
+copying file ./Payload/Dosimetry Calculator.app/Dosimetry Calculator ... 
+2018-08-30 23:26:29 +0000  1286464 bytes for ./Payload/Dosimetry Calculator.app/Dosimetry Calculator
+copying file ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_6 MV_NONE_PDD_Table.csv ... 
+2018-08-30 23:26:29 +0000  2526 bytes for ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_6 MV_NONE_PDD_Table.csv
+copying file ./Payload/Dosimetry Calculator.app/SpreadsheetLeftRowView.nib ... 
+2018-08-30 23:26:29 +0000  2991 bytes for ./Payload/Dosimetry Calculator.app/SpreadsheetLeftRowView.nib
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib ... 
+2018-08-30 23:26:29 +0000  5575 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib ... 
+2018-08-30 23:26:29 +0000  4787 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UIViewController-zB3-Ej-cL5.nib ... 
+946 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UIViewController-zB3-Ej-cL5.nib
+copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/aBe-b9-hsY-view-xcS-sc-KC1.nib ... 
+2018-08-30 23:26:29 +0000  5429 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/aBe-b9-hsY-view-xcS-sc-KC1.nib
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UIViewController-OGk-ne-DMD.nib ... 
+2018-08-30 23:26:29 +0000  2763 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UIViewController-OGk-ne-DMD.nib
+copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/R57-Hp-Byi-view-5gx-H8-Cze.nib ... 
+2018-08-30 23:26:29 +0000  1149 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/R57-Hp-Byi-view-5gx-H8-Cze.nib
+copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UIViewController-1h2-lJ-7V2.nib ... 
+2018-08-30 23:26:29 +0000  2939 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UIViewController-1h2-lJ-7V2.nib
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/6Sq-Ed-im9-view-ceg-yl-Y3y.nib ... 
+2018-08-30 23:26:29 +0000  9078 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/6Sq-Ed-im9-view-ceg-yl-Y3y.nib
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/zB3-Ej-cL5-view-JJx-ME-XYW.nib ... 
+2018-08-30 23:26:29 +0000  3635 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/zB3-Ej-cL5-view-JJx-ME-XYW.nib
+copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/OGk-ne-DMD-view-oZY-kT-b5g.nib ... 
+2018-08-30 23:26:29 +0000  12639 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/OGk-ne-DMD-view-oZY-kT-b5g.nib
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/1h2-lJ-7V2-view-SlD-Sa-klP.nib ... 
+2018-08-30 23:26:29 +0000  16305 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/1h2-lJ-7V2-view-SlD-Sa-klP.nib
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/wAA-QU-0Zg-view-vet-cL-rEi.nib ... 
+2018-08-30 23:26:29 +0000  6175 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/wAA-QU-0Zg-view-vet-cL-rEi.nib
+copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UIViewController-q1H-ZK-O3f.nib ... 
+2018-08-30 23:26:29 +0000  1755 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UIViewController-q1H-ZK-O3f.nib
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UIViewController-wAA-QU-0Zg.nib ... 
+2018-08-30 23:26:29 +0000  1475 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UIViewController-wAA-QU-0Zg.nib
+copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-08-30 23:26:29 +0000  669 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UIViewController-aBe-b9-hsY.nib ... 
+2018-08-30 23:26:29 +0000  1363 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/UIViewController-aBe-b9-hsY.nib
+copying file ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/q1H-ZK-O3f-view-V0B-xi-1Ee.nib ... 
+2018-08-30 23:26:29 +0000  10107 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/Main.storyboardc/q1H-ZK-O3f-view-V0B-xi-1Ee.nib
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-08-30 23:26:29 +0000  1136 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Dosimetry Calculator.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-08-30 23:26:29 +0000  832 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Dosimetry Calculator.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-08-30 23:26:29 +0000  258 bytes for ./Payload/Dosimetry Calculator.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Dosimetry Calculator.app/trilogy output.csv ... 
+2018-08-30 23:26:29 +0000  1195 bytes for ./Payload/Dosimetry Calculator.app/trilogy output.csv
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/SpreadsheetTopLeftDecorationView.nib ... 
+2018-08-30 23:26:29 +0000  4066 bytes for ./Payload/Dosimetry Calculator.app/SpreadsheetTopLeftDecorationView.nib
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/AppIcon-176x76@2x~ipad.png ... 
+2018-08-30 23:26:29 +0000  16020 bytes for ./Payload/Dosimetry Calculator.app/AppIcon-176x76@2x~ipad.png
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_18 MV_WedgeFactors.csv ... 
+2018-08-30 23:26:29 +0000  1909 bytes for ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_18 MV_WedgeFactors.csv
+copying file ./Payload/Dosimetry Calculator.app/Assets.car ... 
+2018-08-30 23:26:29 +0000  589560 bytes for ./Payload/Dosimetry Calculator.app/Assets.car
+copying file ./Payload/Dosimetry Calculator.app/SpreadsheetBottomColumnView.nib ... 
+2018-08-30 23:26:29 +0000  3868 bytes for ./Payload/Dosimetry Calculator.app/SpreadsheetBottomColumnView.nib
+copying file ./Payload/Dosimetry Calculator.app/10MVscp.csv ... 
+2018-08-30 23:26:29 +0000  636 bytes for ./Payload/Dosimetry Calculator.app/10MVscp.csv
+copying file ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_6 MV_WedgeFactors.csv ... 
+2018-08-30 23:26:29 +0000  1907 bytes for ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_6 MV_WedgeFactors.csv
+2018-08-30 23:26:29 +0000  copying file ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_6 MV_NONE_4x4_OAR_Table.csv ... 
+2018-08-30 23:26:29 +0000  1050 bytes for ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_6 MV_NONE_4x4_OAR_Table.csv
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-08-30 23:26:29 +0000  349776 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-08-30 23:26:29 +0000  596240 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/libswiftCore.dylib ... 
+2018-08-30 23:26:32 +0000  66704688 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-08-30 23:26:32 +0000  1637936 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/libswiftUIKit.dylib ... 
+2018-08-30 23:26:32 +0000  1085168 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/libswiftMetal.dylib ... 
+2018-08-30 23:26:32 +0000  458256 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/libswiftDispatch.dylib ... 
+2018-08-30 23:26:32 +0000  2764432 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/libswiftDispatch.dylib
+2018-08-30 23:26:32 +0000  copying file ./Payload/Dosimetry Calculator.app/Frameworks/SwiftSpreadsheet.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/SwiftSpreadsheet.framework/_CodeSignature/CodeResources
+2018-08-30 23:26:32 +0000  copying file ./Payload/Dosimetry Calculator.app/Frameworks/SwiftSpreadsheet.framework/SwiftSpreadsheet ... 
+2018-08-30 23:26:32 +0000  285312 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/SwiftSpreadsheet.framework/SwiftSpreadsheet
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/SwiftSpreadsheet.framework/Info.plist ... 
+2018-08-30 23:26:32 +0000  755 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/SwiftSpreadsheet.framework/Info.plist
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/libswiftos.dylib ... 
+2018-08-30 23:26:32 +0000  506528 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/libswiftos.dylib
+2018-08-30 23:26:32 +0000  copying file ./Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-08-30 23:26:32 +0000  299888 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/libswiftDarwin.dylib ... 
+2018-08-30 23:26:32 +0000  848096 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-08-30 23:26:32 +0000  352752 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/libswiftQuartzCore.dylib
+2018-08-30 23:26:32 +0000  copying file ./Payload/Dosimetry Calculator.app/Frameworks/SpreadsheetView.framework/_CodeSignature/CodeResources ... 
+2018-08-30 23:26:32 +0000  2202 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/SpreadsheetView.framework/_CodeSignature/CodeResources
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/SpreadsheetView.framework/SpreadsheetView ... 
+2018-08-30 23:26:32 +0000  1670976 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/SpreadsheetView.framework/SpreadsheetView
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/SpreadsheetView.framework/Info.plist ... 
+2018-08-30 23:26:32 +0000  753 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/SpreadsheetView.framework/Info.plist
+copying file ./Payload/Dosimetry Calculator.app/Frameworks/libswiftFoundation.dylib ... 
+2018-08-30 23:26:34 +0000  30207392 bytes for ./Payload/Dosimetry Calculator.app/Frameworks/libswiftFoundation.dylib
+2018-08-30 23:26:34 +0000  copying file ./Payload/Dosimetry Calculator.app/NSA 2100CD #1201_10 MV_NONE_TPR_Table.csv ... 
+2539 bytes for ./Payload/Dosimetry Calculator.app/NSA 2100CD #1201_10 MV_NONE_TPR_Table.csv
+copying file ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_18 MV_NONE_PDD_Table.csv ... 
+2018-08-30 23:26:34 +0000  2579 bytes for ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_18 MV_NONE_PDD_Table.csv
+2018-08-30 23:26:34 +0000  copying file ./Payload/Dosimetry Calculator.app/embedded.mobileprovision ... 
+2018-08-30 23:26:34 +0000  7519 bytes for ./Payload/Dosimetry Calculator.app/embedded.mobileprovision
+copying file ./Payload/Dosimetry Calculator.app/SpreadsheetBottomLeftDecorationView.nib ... 
+2018-08-30 23:26:34 +0000  4036 bytes for ./Payload/Dosimetry Calculator.app/SpreadsheetBottomLeftDecorationView.nib
+2018-08-30 23:26:34 +0000  copying file ./Payload/Dosimetry Calculator.app/Info.plist ... 
+2018-08-30 23:26:34 +0000  1509 bytes for ./Payload/Dosimetry Calculator.app/Info.plist
+copying file ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_18 MV_NONE_TPR_Table.csv ... 
+2018-08-30 23:26:34 +0000  2539 bytes for ./Payload/Dosimetry Calculator.app/NSH Trilogy #706_18 MV_NONE_TPR_Table.csv
+copying file ./Payload/Dosimetry Calculator.app/NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv ... 
+2018-08-30 23:26:34 +0000  2579 bytes for ./Payload/Dosimetry Calculator.app/NSA 2100CD #1201_10 MV_NONE_PDD_Table.csv
+2018-08-30 23:26:34 +0000  copying file ./Payload/Dosimetry Calculator.app/PkgInfo ... 
+8 bytes for ./Payload/Dosimetry Calculator.app/PkgInfo
+2018-08-30 23:26:34 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+2018-08-30 23:26:34 +0000  307520 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+2018-08-30 23:26:34 +0000  copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2018-08-30 23:26:34 +0000  553984 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2018-08-30 23:26:37 +0000  66662432 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2018-08-30 23:26:37 +0000  1628432 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2018-08-30 23:26:37 +0000  1042912 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2018-08-30 23:26:37 +0000  448768 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2018-08-30 23:26:37 +0000  2722176 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2018-08-30 23:26:37 +0000  497040 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2018-08-30 23:26:37 +0000  257616 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+2018-08-30 23:26:37 +0000  copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2018-08-30 23:26:37 +0000  838608 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2018-08-30 23:26:37 +0000  310496 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2018-08-30 23:26:39 +0000  30165120 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+2018-08-30 23:26:39 +0000  copying file ./Symbols/FB5160D0-DC38-32E1-97CA-A2EEE72A8D80.symbols ... 
+2018-08-30 23:26:39 +0000  21552 bytes for ./Symbols/FB5160D0-DC38-32E1-97CA-A2EEE72A8D80.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/599F2CCE-4E8B-3255-9DDF-69DB9AA48764.symbols ... 
+2018-08-30 23:26:39 +0000  2368 bytes for ./Symbols/599F2CCE-4E8B-3255-9DDF-69DB9AA48764.symbols
+copying file ./Symbols/0E333FDA-7200-3860-A53D-7604CEC3DC48.symbols ... 
+2018-08-30 23:26:39 +0000  2728 bytes for ./Symbols/0E333FDA-7200-3860-A53D-7604CEC3DC48.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/AFC3DE45-AD58-3589-A978-26E2E97352C6.symbols ... 
+2018-08-30 23:26:39 +0000  12760 bytes for ./Symbols/AFC3DE45-AD58-3589-A978-26E2E97352C6.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/C5221413-9E18-342D-856E-F235DAA6A43A.symbols ... 
+2018-08-30 23:26:39 +0000  44536 bytes for ./Symbols/C5221413-9E18-342D-856E-F235DAA6A43A.symbols
+copying file ./Symbols/D164CEE7-BC83-303F-8C3C-CC58F19C60DC.symbols ... 
+2018-08-30 23:26:39 +0000  221720 bytes for ./Symbols/D164CEE7-BC83-303F-8C3C-CC58F19C60DC.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/F27E68E1-3DF3-3593-A742-E2BB8A2B27D1.symbols ... 
+2018-08-30 23:26:39 +0000  103104 bytes for ./Symbols/F27E68E1-3DF3-3593-A742-E2BB8A2B27D1.symbols
+copying file ./Symbols/2DDBE489-5355-3F49-B5EB-3E402BF3EEED.symbols ... 
+2018-08-30 23:26:39 +0000  12952 bytes for ./Symbols/2DDBE489-5355-3F49-B5EB-3E402BF3EEED.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/FB3B98BE-29F3-3323-B1B8-62C00C4E1241.symbols ... 
+2018-08-30 23:26:39 +0000  21552 bytes for ./Symbols/FB3B98BE-29F3-3323-B1B8-62C00C4E1241.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/5DF1CCA7-DA49-3AE6-BC61-AAF18034779E.symbols ... 
+2018-08-30 23:26:39 +0000  6928 bytes for ./Symbols/5DF1CCA7-DA49-3AE6-BC61-AAF18034779E.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/D40DEF73-60A6-339D-843D-88F258576F65.symbols ... 
+2018-08-30 23:26:39 +0000  2472 bytes for ./Symbols/D40DEF73-60A6-339D-843D-88F258576F65.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/52C534E7-F10B-3B31-AF3E-312445095B81.symbols ... 
+2018-08-30 23:26:39 +0000  13208 bytes for ./Symbols/52C534E7-F10B-3B31-AF3E-312445095B81.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/8887AE77-E0E6-33F5-BC91-47F1C42DF36C.symbols ... 
+2018-08-30 23:26:39 +0000  6592 bytes for ./Symbols/8887AE77-E0E6-33F5-BC91-47F1C42DF36C.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/81A30183-A8CF-3108-B15E-065E35312712.symbols ... 
+2018-08-30 23:26:39 +0000  223640 bytes for ./Symbols/81A30183-A8CF-3108-B15E-065E35312712.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/60527F18-9766-3316-9C14-39EC7AEE013E.symbols ... 
+2018-08-30 23:26:39 +0000  3347936 bytes for ./Symbols/60527F18-9766-3316-9C14-39EC7AEE013E.symbols
+copying file ./Symbols/181EE94A-59DC-3A9A-8A6A-064E95EBC254.symbols ... 
+2018-08-30 23:26:39 +0000  1511904 bytes for ./Symbols/181EE94A-59DC-3A9A-8A6A-064E95EBC254.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/4FE54383-0B38-3378-B946-C669DD45FDD0.symbols ... 
+2018-08-30 23:26:39 +0000  3329416 bytes for ./Symbols/4FE54383-0B38-3378-B946-C669DD45FDD0.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/AA29266D-D3A3-3D30-A668-A358052E1AAA.symbols ... 
+2018-08-30 23:26:39 +0000  103176 bytes for ./Symbols/AA29266D-D3A3-3D30-A668-A358052E1AAA.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/8C36E2E2-5504-31E9-BFBA-2D7B3C1B929B.symbols ... 
+2018-08-30 23:26:39 +0000  102384 bytes for ./Symbols/8C36E2E2-5504-31E9-BFBA-2D7B3C1B929B.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/062BD1C4-0293-3010-B791-EB1A4D4DC93B.symbols ... 
+2018-08-30 23:26:39 +0000  21592 bytes for ./Symbols/062BD1C4-0293-3010-B791-EB1A4D4DC93B.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/527DFD5B-F74E-35EC-AE84-2436FC6763FF.symbols ... 
+2018-08-30 23:26:39 +0000  12952 bytes for ./Symbols/527DFD5B-F74E-35EC-AE84-2436FC6763FF.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/412B48C6-07FB-3096-A8F4-2FA3C159B67A.symbols ... 
+2018-08-30 23:26:39 +0000  60000 bytes for ./Symbols/412B48C6-07FB-3096-A8F4-2FA3C159B67A.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/CDD1E457-083C-3DA5-9500-DCAC844406CE.symbols ... 
+2018-08-30 23:26:39 +0000  13208 bytes for ./Symbols/CDD1E457-083C-3DA5-9500-DCAC844406CE.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/BC58E020-DAF4-3E8C-B605-9F213E5AEEDC.symbols ... 
+2018-08-30 23:26:39 +0000  43960 bytes for ./Symbols/BC58E020-DAF4-3E8C-B605-9F213E5AEEDC.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/5148ACA6-CD45-3355-81A1-B6C9274FA4ED.symbols ... 
+2018-08-30 23:26:39 +0000  60328 bytes for ./Symbols/5148ACA6-CD45-3355-81A1-B6C9274FA4ED.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/53726A84-1516-36DA-A562-7ACBD8725367.symbols ... 
+2018-08-30 23:26:39 +0000  13120 bytes for ./Symbols/53726A84-1516-36DA-A562-7ACBD8725367.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/C589B88B-F3EA-3544-8B25-4AA48143606C.symbols ... 
+2018-08-30 23:26:39 +0000  223712 bytes for ./Symbols/C589B88B-F3EA-3544-8B25-4AA48143606C.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/E825EC9B-B58D-3A10-8398-70039E63709A.symbols ... 
+2018-08-30 23:26:39 +0000  2368 bytes for ./Symbols/E825EC9B-B58D-3A10-8398-70039E63709A.symbols
+copying file ./Symbols/D0DE7B83-C6A5-3D19-AC61-12FBA3B84309.symbols ... 
+2018-08-30 23:26:39 +0000  1506160 bytes for ./Symbols/D0DE7B83-C6A5-3D19-AC61-12FBA3B84309.symbols
+copying file ./Symbols/0A1F05C0-B97E-3A2D-9641-94E42172B5F6.symbols ... 
+2018-08-30 23:26:39 +0000  2816 bytes for ./Symbols/0A1F05C0-B97E-3A2D-9641-94E42172B5F6.symbols
+copying file ./Symbols/00E1AB28-6A0D-308A-8401-7CA1137C57B6.symbols ... 
+2018-08-30 23:26:39 +0000  60328 bytes for ./Symbols/00E1AB28-6A0D-308A-8401-7CA1137C57B6.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/49FCED25-5BAB-3B4B-8806-7054BCEDF6C0.symbols ... 
+2018-08-30 23:26:39 +0000  6592 bytes for ./Symbols/49FCED25-5BAB-3B4B-8806-7054BCEDF6C0.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/58A03362-38CB-3412-A3C9-5348EACE6943.symbols ... 
+2018-08-30 23:26:39 +0000  1512048 bytes for ./Symbols/58A03362-38CB-3412-A3C9-5348EACE6943.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/5D37943C-EAED-3B1B-9CB3-4738BE6F2561.symbols ... 
+2018-08-30 23:26:39 +0000  44536 bytes for ./Symbols/5D37943C-EAED-3B1B-9CB3-4738BE6F2561.symbols
+2018-08-30 23:26:39 +0000  copying file ./Symbols/E8EF3E0F-39CF-3791-A8CC-AEB2C3CEBB1D.symbols ... 
+2018-08-30 23:26:39 +0000  2728 bytes for ./Symbols/E8EF3E0F-39CF-3791-A8CC-AEB2C3CEBB1D.symbols
+copying file ./Symbols/09D4FF65-6FD5-3605-AAE3-0AB98E9C1472.symbols ... 
+2018-08-30 23:26:39 +0000  3348520 bytes for ./Symbols/09D4FF65-6FD5-3605-AAE3-0AB98E9C1472.symbols
+2018-08-30 23:26:39 +0000  2018-08-30 23:26:39 +0000  
+
+2018-08-30 23:26:39 +0000  /usr/bin/ditto exited with 0
+2018-08-30 23:26:39 +0000  2018-08-30 23:26:39 +0000  
+
+2018-08-30 23:26:39 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-08-30 23:26:39 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
